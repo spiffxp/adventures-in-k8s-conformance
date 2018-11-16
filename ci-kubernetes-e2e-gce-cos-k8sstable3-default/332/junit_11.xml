@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="6" failures="0" time="696.24116201">
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] PrivilegedPod should enable privileged commands" classname="Kubernetes e2e suite" time="57.986056827"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: tmpfs] when pod&#39;s node is different from PV&#39;s NodeAffinity should not be able to mount due to different NodeAffinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume as non-root with defaultMode and fsGroup set [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root [Conformance]" classname="Kubernetes e2e suite" time="19.94836148"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="49.832210043"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on PodSelector [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner External should let an external dynamic provisioner create and delete persistent volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Burst scaling should run to completion even with unhealthy pods" classname="Kubernetes e2e suite" time="385.354340443"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl replace should update a single-container pod&#39;s image  [Conformance]" classname="Kubernetes e2e suite" time="20.12491419"></testcase>
+      <testcase name="[sig-storage] Projected should update labels on modification [Conformance]" classname="Kubernetes e2e suite" time="115.259271299"></testcase>
+  </testsuite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="752.138127021">
+      <testcase name="[sig-apps] ReplicaSet should serve a basic image on each replica with a private image" classname="Kubernetes e2e suite" time="26.430944645"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should perfer to scheduled to nodes pod can tolerate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid hostFailuresToTolerate and cacheReservation values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas multizone workers [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should schedule multiple jobs concurrently" classname="Kubernetes e2e suite" time="165.281008364"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="60.337677437"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0777,default) [Conformance]" classname="Kubernetes e2e suite" time="21.386278097"></testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [StatefulSet] should not reschedule stateful pods if there is a network partition [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings  [Conformance]" classname="Kubernetes e2e suite" time="13.594422318"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support volume SELinux relabeling" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should create a quota with scopes" classname="Kubernetes e2e suite" time="9.199205189"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Nodes [Disruptive] Resize [Slow] should be able to add nodes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Scaling should happen in predictable order and halt if any stateful pod is unhealthy" classname="Kubernetes e2e suite" time="151.182567268"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a replication controller." classname="Kubernetes e2e suite" time="15.689509991"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Servers with support for Table transformation should return pod details" classname="Kubernetes e2e suite" time="25.015168241"></testcase>
+      <testcase name="[sig-network] Services should work after restarting apiserver [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest logs" classname="Kubernetes e2e suite" time="216.07560444"></testcase>
+  </testsuite>

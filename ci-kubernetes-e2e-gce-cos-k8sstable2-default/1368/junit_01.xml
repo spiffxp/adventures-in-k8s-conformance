@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="880.836589808">
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide node allocatable (memory) as default memory limit if the limit is not set [Conformance]" classname="Kubernetes e2e suite" time="46.216110447"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] cluster upgrade should maintain a functioning cluster [Feature:ClusterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PVC and non-pre-bound PV: test write access" classname="Kubernetes e2e suite" time="60.170385576"></testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should update pod when spec was updated and update strategy is RollingUpdate [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with invalid capability name objectSpaceReserve is not honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings [Conformance]" classname="Kubernetes e2e suite" time="19.885193275"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that taints-tolerations is respected if matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="29.694183347"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 3 PVs and 3 PVCs: test write access" classname="Kubernetes e2e suite" time="57.409340049"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable in multiple volumes in a pod [Conformance]" classname="Kubernetes e2e suite" time="31.260001632"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost should support forwarding over websockets" classname="Kubernetes e2e suite" time="55.232280157"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run CronJob should create a CronJob" classname="Kubernetes e2e suite" time="31.669625504"></testcase>
+      <testcase name="[k8s.io] Sysctls should reject invalid sysctls" classname="Kubernetes e2e suite" time="11.481630869"></testcase>
+      <testcase name="[sig-network] Services should work after restarting kube-proxy [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with xfs" classname="Kubernetes e2e suite" time="10.29480812">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0777,tmpfs) [Conformance]" classname="Kubernetes e2e suite" time="17.422770966"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should scale up correct target pool [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="10.778681421">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node { Random} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should scale down with Custom Metric of type Pod from Stackdriver with Prometheus [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that required NodeAffinity setting is respected if matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should support retrieving logs from the container over websockets" classname="Kubernetes e2e suite" time="63.811218615"></testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should enforce the restricted policy.PodSecurityPolicy" classname="Kubernetes e2e suite" time="11.140604743">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Secrets should be consumable from pods in volume with defaultMode set  [Conformance]" classname="Kubernetes e2e suite" time="21.18647787"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS when invoking the Recycle reclaim policy should test that a PV becomes Available and is clean after the PVC is deleted." classname="Kubernetes e2e suite" time="46.684688467"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="145.622906109"></testcase>
+  </testsuite>

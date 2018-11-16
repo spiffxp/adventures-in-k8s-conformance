@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="16" failures="0" time="868.492472468">
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should be able to deny custom resource creation" classname="Kubernetes e2e suite" time="34.42774377"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support existing directory" classname="Kubernetes e2e suite" time="20.740825059"></testcase>
+      <testcase name="[sig-cluster-lifecycle] ingress Upgrade [Feature:IngressUpgrade] ingress upgrade should maintain a functioning ingress" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should run Stackdriver Metadata Agent [Feature:StackdriverMetadataAgent]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking should provide Internet connection for containers [Feature:Networking-IPv4]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that deleting the PV before the pod does not cause pod deletion to fail on vspehre volume detach" classname="Kubernetes e2e suite" time="10.206311866">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with defaultMode set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="15.419422033"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: block] [Feature:BlockVolume] Set fsGroup for local volume should set fsGroup for one pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks detach in a disrupted environment [Slow] [Disruptive] when pod is evicted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should enforce the restricted extensions.PodSecurityPolicy" classname="Kubernetes e2e suite" time="44.902727366"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support volume SELinux relabeling when using hostPID" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume FStype [Feature:vsphere] verify invalid fstype" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should remove from active list jobs that have been deleted" classname="Kubernetes e2e suite" time="86.317145826"></testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] should scale down empty nodes [Feature:ClusterAutoscalerScalability3]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support inline execution and attach" classname="Kubernetes e2e suite" time="64.195667602"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: blockfs] Set fsGroup for local volume should set same fsGroup for two pods simultaneously" classname="Kubernetes e2e suite" time="75.070724542"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 50 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support file as subpath" classname="Kubernetes e2e suite" time="10.542752474">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified [NodeFeature:FSGroup] nonexistent volume subPath should have the correct mode and owner using FSGroup" classname="Kubernetes e2e suite" time="15.986864357"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should scale down GPU pool from 1 [GpuType:nvidia-tesla-p100] [Feature:ClusterSizeAutoscalingGpu]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0777,default) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.784575283"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="52.19775726"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Downward API should create a pod that prints his name and namespace" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [ReplicationController] should recreate pods scheduled on the unreachable node AND allow scheduling of pods on a node after it rejoins the cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Variable Expansion should fail substituting values in a volume subpath with backticks [Feature:VolumeSubpathEnvExpansion][NodeAlphaFeature:VolumeSubpathEnvExpansion][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should scale up with two External metrics from Stackdriver [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] [Feature:GPUDevicePlugin] run Nvidia GPU Device Plugin tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow composing env vars into new env vars [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.792153908"></testcase>
+      <testcase name="[sig-network] Services should be able to switch session affinity for LoadBalancer service with ESIPP off [Slow] [DisabledForLargeClusters]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node {extensions Deployment} with 0 secrets, 2 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should have their auto-restart back-off timer reset on image update [Slow][NodeConformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: udp [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="71.912540853"></testcase>
+      <testcase name="[sig-instrumentation] [Feature:PrometheusMonitoring] Prometheus should contain correct container CPU metric." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings and Item Mode set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="16.614305621"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes volume on default medium should have the correct mode [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="17.218130271"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl taint [Serial] should update the taint on a node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 2 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that there is no conflict between pods with same hostPort but different hostIP and protocol" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume FStype [Feature:vsphere] verify fstype - default value should be ext4" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="89.218792718"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should be able to scale down when rescheduling a pod is required and pdb allows for it[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] Advanced Audit should audit API calls [DisabledForLargeClusters]" classname="Kubernetes e2e suite" time="78.822047027"></testcase>
+  </testsuite>

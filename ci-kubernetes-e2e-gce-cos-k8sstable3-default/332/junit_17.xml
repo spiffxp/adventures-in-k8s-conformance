@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="631.301413018">
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should be able to deny custom resource creation" classname="Kubernetes e2e suite" time="39.954440265"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PVC and non-pre-bound PV: test write access" classname="Kubernetes e2e suite" time="44.230029367"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and ensure its status is promptly calculated." classname="Kubernetes e2e suite" time="10.792000924"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with defaultMode set [Conformance]" classname="Kubernetes e2e suite" time="15.670182155"></testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s cpu limit [Conformance]" classname="Kubernetes e2e suite" time="15.357453647"></testcase>
+      <testcase name="[k8s.io] Sysctls should support sysctls" classname="Kubernetes e2e suite" time="13.647025249"></testcase>
+      <testcase name="[sig-storage] HostPath should give a volume the correct mode [Conformance]" classname="Kubernetes e2e suite" time="19.827107514"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="8.864322208">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should sync endpoints to NEG" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid diskStripes and objectSpaceReservation values and a VSAN datastore is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with FSGroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas different zones [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="149.741044197"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should return command exit codes" classname="Kubernetes e2e suite" time="81.027689365"></testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: too few pods, replicaSet, percentage =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="91.31165162"></testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: maxUnavailable deny evictions, integer =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="92.876034266"></testcase>
+  </testsuite>

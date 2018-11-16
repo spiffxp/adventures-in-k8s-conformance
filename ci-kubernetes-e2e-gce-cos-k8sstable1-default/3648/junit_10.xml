@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="869.042552747">
+      <testcase name="[sig-network] Services should use same NodePort with same port but different protocols" classname="Kubernetes e2e suite" time="10.232763183"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: tmpfs] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="55.238579783"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t scale up when expendable pod is preempted [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should correctly scale down after a node is not needed and one node is broken [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp alpha unconfined annotation on the container [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: gce-localssd-scsi-fs] [Serial] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: gce-localssd-scsi-fs] [Serial] Set fsGroup for local volume should set same fsGroup for two pods simultaneously" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected optional updates should be reflected in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="39.210547979"></testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] Getting an existing secret should exit with the Forbidden error" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Secrets optional updates should be reflected in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="108.830732553"></testcase>
+      <testcase name="[k8s.io] Probing container with readiness probe that fails should never be ready and never restart [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="89.550519412"></testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default command (docker entrypoint) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="31.456740951"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Update Demo should create and stop a replication controller  [Conformance]" classname="Kubernetes e2e suite" time="36.2116341"></testcase>
+      <testcase name="[sig-scheduling] Multi-AZ Clusters should spread the pods of a replication controller across zones" classname="Kubernetes e2e suite" time="9.911634708">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should not schedule jobs when suspended [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should set DefaultMode on files [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="15.915608526"></testcase>
+      <testcase name="[sig-storage] Mounted volume expand[Slow] Should verify mounted devices can be resized" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons with quotas" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link-bindmounted] One pod requesting one prebound PVC should be able to mount volume and read from pod1" classname="Kubernetes e2e suite" time="59.735806152"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for pod-Service: udp" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support non-existent path" classname="Kubernetes e2e suite" time="44.409409072"></testcase>
+      <testcase name="[sig-api-machinery] Etcd failure [Disruptive] should recover from SIGKILL" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should sign the new added bootstrap tokens" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified [NodeFeature:FSGroup] new files should be created with FSGroup ownership when container is non-root" classname="Kubernetes e2e suite" time="22.118642549"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support non-existent path" classname="Kubernetes e2e suite" time="10.232664129">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link] Set fsGroup for local volume should not set different fsGroups for two pods simultaneously" classname="Kubernetes e2e suite" time="71.564610412"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects a client request should support a client that connects, sends NO DATA, and disconnects" classname="Kubernetes e2e suite" time="50.275000208"></testcase>
+      <testcase name="[sig-storage] Ephemeralstorage When pod refers to non-existent ephemeral storage should allow deletion of pod with invalid volume : configmap" classname="Kubernetes e2e suite" time="53.976384525"></testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [StatefulSet] should come back up if node goes down [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support volume SELinux relabeling when using hostIPC" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should update labels on modification [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="34.536078462"></testcase>
+  </testsuite>

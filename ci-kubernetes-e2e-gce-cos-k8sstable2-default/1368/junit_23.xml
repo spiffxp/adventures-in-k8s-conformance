@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="16" failures="0" time="659.663260381">
+      <testcase name="[sig-storage] Volumes vsphere [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicaSet should serve a basic image on each replica with a private image" classname="Kubernetes e2e suite" time="44.175414084"></testcase>
+      <testcase name="[sig-apps] Deployment test Deployment ReplicaSet orphaning and adoption regarding controllerRef" classname="Kubernetes e2e suite" time="16.453234004"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should be able to deny custom resource creation" classname="Kubernetes e2e suite" time="34.905506315"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] Deployment Should scale from 5 pods to 3 pods and from 3 to 1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PV and a pre-bound PVC: test write access" classname="Kubernetes e2e suite" time="63.204137899"></testcase>
+      <testcase name="[sig-storage] Secrets should be consumable from pods in volume with mappings and Item Mode set  [Conformance]" classname="Kubernetes e2e suite" time="19.71706959"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate custom resource" classname="Kubernetes e2e suite" time="29.309279568"></testcase>
+      <testcase name="[sig-apps] Deployment RecreateDeployment should delete old pods and create new ones" classname="Kubernetes e2e suite" time="20.197537659"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable in multiple volumes in the same pod  [Conformance]" classname="Kubernetes e2e suite" time="27.109983746"></testcase>
+      <testcase name="[sig-storage] Downward API volume should update annotations on modification  [Conformance]" classname="Kubernetes e2e suite" time="54.184732803"></testcase>
+      <testcase name="[sig-storage] GCP Volumes NFSv4 should be mountable for NFSv4" classname="Kubernetes e2e suite" time="53.116971826"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support existing single file" classname="Kubernetes e2e suite" time="62.037598469"></testcase>
+      <testcase name="[sig-storage] Pod Disks should be able to delete a non-existent PD without error" classname="Kubernetes e2e suite" time="11.072386241"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support file as subpath" classname="Kubernetes e2e suite" time="49.577915098"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0777,default) [Conformance]" classname="Kubernetes e2e suite" time="17.366050402"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="111.90077723"></testcase>
+      <testcase name="[sig-api-machinery] Servers with support for API chunking should return chunks of results for list calls" classname="Kubernetes e2e suite" time="33.308306029"></testcase>
+  </testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="879.645982403">
+      <testcase name="[sig-apps] DaemonRestart [Disruptive] Scheduler should continue assigning pods to nodes across restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support non-existent path" classname="Kubernetes e2e suite" time="50.707883618"></testcase>
+      <testcase name="[sig-network] Services should provide secure master service  [Conformance]" classname="Kubernetes e2e suite" time="13.019917904"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule a pod w/ RW PD(s) mounted to 1 or more containers, write to PD, verify content, delete pod, and repeat in rapid succession [Slow] using 4 containers and 1 PDs" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from API server." classname="Kubernetes e2e suite" time="11.950813148"></testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [StatefulSet] should not reschedule stateful pods if there is a network partition [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController should update PodDisruptionBudget status" classname="Kubernetes e2e suite" time="47.158842848"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support volume SELinux relabeling when using hostIPC" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 4 PVs and 2 PVCs: test write access [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] CassandraStatefulSet should create statefulset" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] Certificates API should support building a client with a CSR" classname="Kubernetes e2e suite" time="21.860026757"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should not detach and unmount PV when associated pvc with delete as reclaimPolicy is deleted when it is in use by the pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota [Feature:Initializers] should create a ResourceQuota and capture the life of an uninitialized pod." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  StatefulSet with pod anti-affinity should use volumes spread across nodes" classname="Kubernetes e2e suite" time="115.959585026"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Downgrade [Feature:Downgrade] cluster downgrade should maintain a functioning cluster [Feature:ClusterDowngrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes NFS should be mountable" classname="Kubernetes e2e suite" time="70.449694683"></testcase>
+      <testcase name="[k8s.io] Probing container should have monotonically increasing restart count  [Slow] [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="34.426777251"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] ReplicationController light Should scale from 1 pod to 2 pods" classname="Kubernetes e2e suite" time="219.185198053"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node {batch Job} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] Deployment Should scale from 1 pod to 3 pods and from 3 to 5" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should create endpoints for unready pods" classname="Kubernetes e2e suite" time="284.060263438"></testcase>
+  </testsuite>

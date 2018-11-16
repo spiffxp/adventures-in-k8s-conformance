@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="19" failures="0" time="638.720466908">
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PVC and a pre-bound PV: test write access" classname="Kubernetes e2e suite" time="63.860717735"></testcase>
+      <testcase name="[k8s.io] Pods should support remote command execution over websockets" classname="Kubernetes e2e suite" time="53.431306927"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t add new node group if not needed [Feature:ClusterSizeAutoscalingScaleWithNAP]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy to cadvisor using proxy subresource" classname="Kubernetes e2e suite" time="12.031727062"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should avoid to schedule to node that have avoidPod annotation" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing single file" classname="Kubernetes e2e suite" time="19.524526196"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec through kubectl proxy" classname="Kubernetes e2e suite" time="29.429997763"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support existing single file" classname="Kubernetes e2e suite" time="40.547395387"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPreemption [Serial] [Feature:PodPreemption] validates pod anti-affinity works in preemption" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 50 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that taints-tolerations is respected if not matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Secrets should be consumable via the environment  [Conformance]" classname="Kubernetes e2e suite" time="34.159920536"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPreemption [Serial] [Feature:PodPreemption] validates basic preemption works" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a pod." classname="Kubernetes e2e suite" time="19.03985073"></testcase>
+      <testcase name="[sig-storage] Secrets should be able to mount in a volume regardless of a different secret existing with same name in different namespace" classname="Kubernetes e2e suite" time="29.204968571"></testcase>
+      <testcase name="[sig-api-machinery] Servers with support for Table transformation should return chunks of table results for list calls" classname="Kubernetes e2e suite" time="30.993238241"></testcase>
+      <testcase name="[sig-network] Services should prevent NodePort collisions" classname="Kubernetes e2e suite" time="11.616767405000001"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl patch should add annotations for pods in rc  [Conformance]" classname="Kubernetes e2e suite" time="35.368679706"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="10.986308097">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment deployment should support rollover" classname="Kubernetes e2e suite" time="49.302929974"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: tmpfs] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="59.424729109"></testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s memory limit  [Conformance]" classname="Kubernetes e2e suite" time="18.099310501"></testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from a Kubelet." classname="Kubernetes e2e suite" time="11.660447249"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should allow ingress access on one named port [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy through a service and a pod  [Conformance]" classname="Kubernetes e2e suite" time="31.15552232"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that NodeSelector is respected if not matching  [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname as non-root with fsgroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if delete options say so [Conformance]" classname="Kubernetes e2e suite" time="53.228899816"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should be able to scale a node group down to 0[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should set DefaultMode on files  [Conformance]" classname="Kubernetes e2e suite" time="14.858133218"></testcase>
+  </testsuite>

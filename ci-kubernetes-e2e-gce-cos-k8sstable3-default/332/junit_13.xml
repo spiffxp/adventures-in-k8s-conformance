@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="13" failures="0" time="610.442064642">
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: gce-localssd-scsi-fs] when pod&#39;s node is different from PV&#39;s NodeName should not be able to mount due to different NodeName" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected optional updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="46.623648259"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings and Item mode set [Conformance]" classname="Kubernetes e2e suite" time="16.249625201"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest logs [Feature:StackdriverLogging]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS when invoking the Recycle reclaim policy should test that a PV becomes Available and is clean after the PVC is deleted." classname="Kubernetes e2e suite" time="77.608353764"></testcase>
+      <testcase name="[sig-apps] Deployment RollingUpdateDeployment should delete old pods and create new ones" classname="Kubernetes e2e suite" time="29.63696624"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should deny crd creation" classname="Kubernetes e2e suite" time="27.128812379"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified new files should be created with FSGroup ownership when container is non-root" classname="Kubernetes e2e suite" time="13.148484811"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should avoid to schedule to node that have avoidPod annotation" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir wrapper volumes should not cause race condition when used for git_repo [Serial] [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: tmpfs] when pod using local volume with non-existant path should not be able to mount" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment iterative rollouts should eventually progress" classname="Kubernetes e2e suite" time="114.452017707"></testcase>
+      <testcase name="[sig-storage] Secrets should be able to mount in a volume regardless of a different secret existing with same name in different namespace" classname="Kubernetes e2e suite" time="28.2641277"></testcase>
+      <testcase name="[k8s.io] Sysctls should support unsafe sysctls which are actually whitelisted" classname="Kubernetes e2e suite" time="19.096272021"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support file as subpath" classname="Kubernetes e2e suite" time="37.066978305"></testcase>
+      <testcase name="[sig-apps] ReplicationController should serve a basic image on each replica with a public image  [Conformance]" classname="Kubernetes e2e suite" time="25.351757839"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="14.983403267">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] etcd Upgrade [Feature:EtcdUpgrade] etcd upgrade should maintain a functioning cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Etcd failure [Disruptive] should recover from SIGKILL" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment deployment should support rollback" classname="Kubernetes e2e suite" time="49.447748307"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects a client request should support a client that connects, sends NO DATA, and disconnects" classname="Kubernetes e2e suite" time="64.119865226"></testcase>
+  </testsuite>

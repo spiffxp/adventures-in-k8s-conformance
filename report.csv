@@ -1,0 +1,14 @@
+job                                          , run  , run_at    , version             , tests, cov, tot, pct, cov_s, tot_s, pct_s, cov_sc, tot_sc, pct_sc
+ci-kubernetes-gce-conformance-stable-1-10    ,   746, 2018-10-23, v1.10.9             ,   140, 301, 1172, 25.68, 198, 553, 35.8, 106, 296, 35.81
+ci-kubernetes-e2e-gce-cos-k8sstable2-default ,  1368, 2018-10-16, v1.10.9-beta.0.34   ,   413, 368, 1172, 31.4, 243, 553, 43.94, 137, 296, 46.28
+ci-kubernetes-gce-conformance-stable-1-11    ,   251, 2018-10-23, v1.11.3             ,   144, 308, 1192, 25.84, 204, 555, 36.76, 106, 296, 35.81
+ci-kubernetes-e2e-gce-cos-k8sstable1-default ,  3648, 2018-09-13, v1.11.3-beta.0.71   ,   479, 391, 1192, 32.8, 252, 555, 45.41, 139, 296, 46.96
+ci-kubernetes-gce-conformance-stable-1-12    ,     3, 2018-10-03, v1.12.0             ,   166, 317, 921, 34.42, 205, 425, 48.24, 107, 227, 47.14
+ci-kubernetes-e2e-gce-cos-k8sbeta-default    ,  5912, 2018-09-28, v1.12.0-rc.2.11     ,   582, 395, 921, 42.89, 249, 425, 58.59, 139, 227, 61.23
+ci-kubernetes-coverage-conformance           ,   388, 2018-11-06, v1.13.0-alpha.3.252 ,   201, 326, 931, 35.02, 215, 426, 50.47, 113, 227, 49.78
+ci-kubernetes-gce-conformance                ,   842, 2018-11-06, v1.13.0-alpha.3.254 ,   201, 326, 931, 35.02, 215, 426, 50.47, 113, 227, 49.78
+ci-kubernetes-coverage-e2e-gci-gce           ,    87, 2018-11-06, v1.13.0-alpha.3.258 ,   556, 403, 931, 43.29, 257, 426, 60.33, 139, 227, 61.23
+ci-kubernetes-e2e-gci-gce                    , 31645, 2018-11-06, v1.13.0-alpha.3.258 ,   556, 403, 931, 43.29, 257, 426, 60.33, 139, 227, 61.23
+ci-kubernetes-gce-conformance-stable-1-8     ,   561, 2018-09-06, v1.8.15             ,   125, , , 
+ci-kubernetes-gce-conformance-stable-1-9     ,   747, 2018-10-23, v1.9.11             ,   125, 283, 1179, 24.0, 180, 582, 30.93, 110, 338, 32.54
+ci-kubernetes-e2e-gce-cos-k8sstable3-default ,   332, 2018-09-29, v1.9.11-beta.0.82   ,   391, 365, 1179, 30.96, 227, 582, 39.0, 139, 338, 41.12

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="621.379536938">
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Update Demo should scale a replication controller  [Conformance]" classname="Kubernetes e2e suite" time="49.118228297"></testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy logs on node  [Conformance]" classname="Kubernetes e2e suite" time="12.129967841"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t scale down when non expendable pod is running [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow substituting values in a container&#39;s args  [Conformance]" classname="Kubernetes e2e suite" time="17.587682633"></testcase>
+      <testcase name="[sig-storage] Volume plugin streaming [Slow] NFS should write files of various sizes, verify size, validate content" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support inline execution and attach" classname="Kubernetes e2e suite" time="62.514016579"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should support a &#39;default-deny&#39; policy [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support non-existent path" classname="Kubernetes e2e suite" time="8.781423222">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Attach Verify [Feature:vsphere][Serial][Disruptive] verify volume remains attached after master kubelet restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 4 PVs and 2 PVCs: test write access [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide host IP as an env var  [Conformance]" classname="Kubernetes e2e suite" time="19.320373852"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support non-existent path" classname="Kubernetes e2e suite" time="13.265452566"></testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with ext4" classname="Kubernetes e2e suite" time="76.690951483"></testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] should dynamically register and apply initializers to pods [Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify if a non-existing SPBM policy is not honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: enough pods, replicaSet, percentage =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="42.678250779"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Operations Storm [Feature:vsphere] should create pod with many volumes and verify no attach call fails" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Redis should create and stop redis servers" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with ext3" classname="Kubernetes e2e suite" time="83.6831149"></testcase>
+      <testcase name="[sig-network] ServiceLoadBalancer [Feature:ServiceLoadBalancer] should support simple GET on Ingress ips" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should be able to scale down by draining system pods with pdb[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Empty [Feature:Empty] starts a pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate configmap" classname="Kubernetes e2e suite" time="26.586786142"></testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s memory request [Conformance]" classname="Kubernetes e2e suite" time="13.647492712"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should keep the rc around until all its pods are deleted if the deleteOptions says so" classname="Kubernetes e2e suite" time="25.121045777"></testcase>
+      <testcase name="[sig-multicluster] Multi-AZ Clusters should spread the pods of a service across zones" classname="Kubernetes e2e suite" time="9.104333874">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide node allocatable (cpu) as default cpu limit if the limit is not set  [Conformance]" classname="Kubernetes e2e suite" time="21.377666545"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects a client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="92.903770017"></testcase>
+  </testsuite>

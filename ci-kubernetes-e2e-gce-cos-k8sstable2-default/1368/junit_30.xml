@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="6" failures="0" time="639.719341528">
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should perfer to scheduled to nodes pod can tolerate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="43.556758639">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] Getting a secret for a workload the node has access to should succeed" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings and Item Mode set [Conformance]" classname="Kubernetes e2e suite" time="13.637767614"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Burst scaling should run to completion even with unhealthy pods [Conformance]" classname="Kubernetes e2e suite" time="380.968956598"></testcase>
+      <testcase name="[sig-network] DNS configMap nameserver should be able to change stubDomain configuration [Slow][Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support non-existent path" classname="Kubernetes e2e suite" time="34.143997567"></testcase>
+      <testcase name="[sig-api-machinery] Namespaces [Serial] should always delete fast (ALL of 100 namespaces in 150 seconds) [Feature:ComprehensiveNamespaceDraining]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas different zones [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support container.SecurityContext.RunAsUser And container.SecurityContext.RunAsGroup [Feature:RunAsGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t scale down when non expendable pod is running [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks detach in a disrupted environment [Slow] [Disruptive] when node is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] AppArmor load AppArmor profiles should enforce an AppArmor profile" classname="Kubernetes e2e suite" time="44.359464276"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid diskStripes and objectSpaceReservation values and a VSAN datastore is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support file as subpath" classname="Kubernetes e2e suite" time="42.120607732"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir] One pod requesting one prebound PVC should be able to mount volume and read from pod1" classname="Kubernetes e2e suite" time="57.939227908"></testcase>
+      <testcase name="[sig-network] ClusterDns [Feature:Example] should create pod that uses dns" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should scale down with Custom Metric of type Pod from Stackdriver [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] Multi-AZ Clusters should spread the pods of a replication controller across zones" classname="Kubernetes e2e suite" time="10.72118604">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

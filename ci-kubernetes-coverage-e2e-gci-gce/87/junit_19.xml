@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="16" failures="0" time="1549.482466882">
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on PodSelector [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: hostPath] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: iscsi][Feature:Volumes] [Testpattern: Dynamic PV (block volmode)] volumeMode[Feature:BlockVolume] should create sc, pod, pv, and pvc, read/write to the pv, and delete all created resources" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Disk Format [Feature:vsphere] verify disk format type - zeroedthick is honored for dynamically provisioned pv using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  StatefulSet with pod affinity [Slow] should use volumes spread across nodes when pod management is parallel and pod has anti-affinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gluster] [Testpattern: Dynamic PV (default fs)] subPath should support existing directory" classname="Kubernetes e2e suite" time="27.792826034">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: rbd][Feature:Volumes] [Testpattern: Inline-volume (xfs)] volumes should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates MaxPods limit number of pods that are allowed to run [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: emptydir] [Testpattern: Dynamic PV (block volmode)] volumeMode[Feature:BlockVolume] should fail in binding dynamic provisioned PV to PVC" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 2 PVs and 4 PVCs: test write access" classname="Kubernetes e2e suite" time="68.539149689"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: emptydir] [Testpattern: Pre-provisioned PV (ext3)] volumes should be mountable" classname="Kubernetes e2e suite" time="28.650200385">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: hostPathSymlink] [Testpattern: Dynamic PV (default fs)] subPath should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="37.289081921">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work for type=LoadBalancer" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: vSphere] [Testpattern: Dynamic PV (default fs)] subPath should support existing single file" classname="Kubernetes e2e suite" time="28.079373358">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with multiple volumes from same datastore" classname="Kubernetes e2e suite" time="17.435338013">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicaSet should serve a basic image on each replica with a public image  [Conformance]" classname="Kubernetes e2e suite" time="36.191223858"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] Set fsGroup for local volume should set different fsGroup for second pod if first pod is deleted" classname="Kubernetes e2e suite" time="63.348216516"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gluster] [Testpattern: Pre-provisioned PV (filesystem volmode)] volumeMode[Feature:BlockVolume] should create sc, pod, pv, and pvc, read/write to the pv, and delete all created resources" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: aws] [Testpattern: Inline-volume (default fs)] subPath should support non-existent path" classname="Kubernetes e2e suite" time="82.664061131">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Liveness liveness pods should be automatically restarted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: rbd][Feature:Volumes] [Testpattern: Dynamic PV (default fs)] subPath should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: aws] [Testpattern: Dynamic PV (ext4)] volumes should be mountable" classname="Kubernetes e2e suite" time="33.010362115">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS configMap nameserver [IPv4] Change stubDomain should be able to change stubDomain configuration [Slow][Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gcepd] [Testpattern: Pre-provisioned PV (filesystem volmode)] volumeMode[Feature:BlockVolume] should create sc, pod, pv, and pvc, read/write to the pv, and delete all created resources" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthenticator] The kubelet can delegate ServiceAccount tokens to the API server" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: cinder] [Testpattern: Dynamic PV (xfs)] volumes should be mountable" classname="Kubernetes e2e suite" time="47.579468686">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gluster] [Testpattern: Dynamic PV (default fs)] provisioning should provision storage" classname="Kubernetes e2e suite" time="30.672022446">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: hostPathSymlink] [Testpattern: Inline-volume (default fs)] subPath should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: cinder] [Testpattern: Inline-volume (ext4)] volumes should be mountable" classname="Kubernetes e2e suite" time="26.517114038">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] NFSPersistentVolumes[Disruptive][Flaky] when kubelet restarts Should test that a volume mounted to a pod that is deleted while the kubelet is down unmounts when the kubelet returns." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner Default should create and delete default persistent volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should not reconcile manually modified health check for ingress" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: azure] [Testpattern: Inline-volume (xfs)] volumes should be mountable" classname="Kubernetes e2e suite" time="28.407706356">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: hostPath] [Testpattern: Dynamic PV (default fs)] subPath should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should be able to switch between HTTPS and HTTP2 modes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should correctly scale down after a node is not needed [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gcepd] [Testpattern: Inline-volume (default fs)] subPath should fail for new directories when readOnly specified in the volumeSource [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: vSphere] [Testpattern: Dynamic PV (default fs)] subPath should support file as subpath" classname="Kubernetes e2e suite" time="27.165253811">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: emptydir] [Testpattern: Inline-volume (xfs)] volumes should be mountable" classname="Kubernetes e2e suite" time="30.114401749">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: hostPathSymlink] [Testpattern: Inline-volume (default fs)] subPath should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="37.958311468">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: nfs] [Testpattern: Pre-provisioned PV (default fs)] subPath should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="116.121002303"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and ensure its status is promptly calculated." classname="Kubernetes e2e suite" time="35.696820512"></testcase>
+      <testcase name="[sig-storage] PV Protection Verify &#34;immediate&#34; deletion of a PV that is not bound to a PVC" classname="Kubernetes e2e suite" time="28.316658046"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0644,tmpfs) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="37.793692908"></testcase>
+      <testcase name="[sig-network] Services should be able to create a functioning NodePort service" classname="Kubernetes e2e suite" time="47.821809452"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: iscsi][Feature:Volumes] [Testpattern: Dynamic PV (default fs)] subPath should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should update pod when spec was updated and update strategy is RollingUpdate [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: nfs] [Testpattern: Pre-provisioned PV (default fs)] subPath should fail for new directories when readOnly specified in the volumeSource [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should be restarted with a docker exec liveness probe with timeout " classname="Kubernetes e2e suite" time="30.227776678">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should unconditionally reject operations on fail closed webhook" classname="Kubernetes e2e suite" time="50.266634149"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: block] [Feature:BlockVolume] Set fsGroup for local volume should set fsGroup for one pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: emptydir] [Testpattern: Inline-volume (ext4)] volumes should be mountable" classname="Kubernetes e2e suite" time="26.572681221">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: iscsi][Feature:Volumes] [Testpattern: Dynamic PV (default fs)] subPath should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gluster] [Testpattern: Inline-volume (default fs)] volumes should be mountable" classname="Kubernetes e2e suite" time="65.582238111"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings as non-root [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="31.510441136"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gluster] [Testpattern: Pre-provisioned PV (default fs)] subPath should support non-existent path" classname="Kubernetes e2e suite" time="80.744864666"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that there is no conflict between pods with same hostPort but different hostIP and protocol" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: cinder] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner Default should be disabled by changing the default annotation [Serial] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should not schedule jobs when suspended [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gcepd] [Testpattern: Pre-provisioned PV (default fs)] subPath should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="125.235749957"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: cinder] [Testpattern: Inline-volume (default fs)] subPath should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: azure] [Testpattern: Pre-provisioned PV (default fs)] subPath should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node Random with 0 secrets, 0 configmaps and 0 daemons with quotas" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Operations Storm [Feature:vsphere] should create pod with many volumes and verify no attach call fails" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Container Runtime blackbox test when starting a container that exits should report termination message if TerminationMessagePath is set as non-root user and at a non-default path [NodeConformance]" classname="Kubernetes e2e suite" time="53.57251171"></testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: vSphere] [Testpattern: Dynamic PV (filesystem volmode)] volumeMode[Feature:BlockVolume] should create sc, pod, pv, and pvc, read/write to the pv, and delete all created resources" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gcepd] [Testpattern: Dynamic PV (default fs)] subPath should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] In-tree Volumes [Driver: gcepd] [Testpattern: Dynamic PV (default fs)] subPath should support file as subpath" classname="Kubernetes e2e suite" time="90.15941211"></testcase>
+      <testcase name="[sig-network] DNS should provide DNS for services  [Conformance]" classname="Kubernetes e2e suite" time="72.690609318"></testcase>
+      <testcase name="[sig-storage] CSI Volumes CSI attach test using HostPath driver [Feature:CSISkipAttach] volume with no CSI driver needs VolumeAttachment" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

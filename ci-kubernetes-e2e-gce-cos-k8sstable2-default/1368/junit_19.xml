@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="639.451958558">
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings as non-root [Conformance]" classname="Kubernetes e2e suite" time="46.457178863"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should update ingress while sync failures occur on other ingresses" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support pod.Spec.SecurityContext.RunAsUser And pod.Spec.SecurityContext.RunAsGroup [Feature:RunAsGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should be restarted with a exec &#34;cat /tmp/health&#34; liveness probe [Conformance]" classname="Kubernetes e2e suite" time="62.705754937"></testcase>
+      <testcase name="[k8s.io] Sysctls should not launch unsafe, but not explicitly enabled sysctls on the node" classname="Kubernetes e2e suite" time="13.049964312"></testcase>
+      <testcase name="[sig-storage] vcp at scale [Feature:vsphere]  vsphere scale tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable in multiple volumes in the same pod [Conformance]" classname="Kubernetes e2e suite" time="13.073435838"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should keep the rc around until all its pods are deleted if the deleteOptions says so [Conformance]" classname="Kubernetes e2e suite" time="17.532225171"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on NamespaceSelector [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should support allow-all policy [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner Default should be disabled by changing the default annotation[Slow] [Serial] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should run and stop complex daemon [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should be able to change the type from NodePort to ExternalName" classname="Kubernetes e2e suite" time="11.079415571"></testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow substituting values in a container&#39;s command  [Conformance]" classname="Kubernetes e2e suite" time="29.407168653"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that a vspehre volume mounted to a pod that is deleted while the kubelet is down unmounts when the kubelet returns [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should have cluster metrics [Feature:StackdriverMonitoring]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 100 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: enough pods, replicaSet, percentage =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="59.800519666"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pending pods are small [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should not schedule jobs when suspended [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="43.562634061"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Proxy server should support proxy with --port 0  [Conformance]" classname="Kubernetes e2e suite" time="35.038729089"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] multicluster ingress should get instance group annotation" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes Azure Disk [Feature:Volumes] should be mountable [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects a client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="93.274994378"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root [Conformance]" classname="Kubernetes e2e suite" time="19.564704329"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type from ExternalName to ClusterIP" classname="Kubernetes e2e suite" time="11.393767285"></testcase>
+      <testcase name="[k8s.io] [sig-node] kubelet [k8s.io] [sig-node] host cleanup with volume mounts [sig-storage][HostCleanup][Flaky] Host cleanup after disrupting NFS volume [NFS] after stopping the nfs-server and deleting the (sleeping) client pod, the NFS mount and the pod&#39;s UID directory should be removed." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should unconditionally reject operations on fail closed webhook" classname="Kubernetes e2e suite" time="36.845690166"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should add node to the particular mig [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Cassandra should create and scale cassandra" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should *not* be restarted with a /healthz http liveness probe  [Conformance]" classname="Kubernetes e2e suite" time="133.98170106"></testcase>
+  </testsuite>

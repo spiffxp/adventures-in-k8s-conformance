@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="593.987080726">
+      <testcase name="[sig-storage] PersistentVolumes[Disruptive][Flaky] when kube-controller-manager restarts should delete a bound PVC from a clientPod, restart the kube-control-manager, and ensure the kube-controller-manager does not crash" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Aggregator Should be able to support the 1.7 Sample API Server using the current Aggregator" classname="Kubernetes e2e suite" time="59.965118199"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] cluster upgrade should maintain a functioning cluster [Feature:ClusterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicationController should release no longer matching pods" classname="Kubernetes e2e suite" time="11.424977558"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that taints-tolerations is respected if matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with non-vsan datastore is not honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should update annotations on modification  [Conformance]" classname="Kubernetes e2e suite" time="129.450672145"></testcase>
+      <testcase name="[sig-storage] Volumes vsphere [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] will be set to nil if a patch removes the last pending initializer" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-service-catalog] [Feature:PodPreset] PodPreset should create a pod preset" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="51.513939541"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for pod-Service: http" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s memory limit  [Conformance]" classname="Kubernetes e2e suite" time="27.785936938"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] Rescheduler [Serial] should ensure that critical pod is scheduled in case there is no resources available" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Firewall rule should have correct firewall rules for e2e cluster" classname="Kubernetes e2e suite" time="15.187137165"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] Deployment Should scale from 5 pods to 3 pods and from 3 to 1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Network should set TCP CLOSE_WAIT timeout" classname="Kubernetes e2e suite" time="32.143403818"></testcase>
+      <testcase name="[k8s.io] InitContainer should not start app containers if init containers fail on a RestartAlways pod" classname="Kubernetes e2e suite" time="118.993687506"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support file as subpath" classname="Kubernetes e2e suite" time="29.637140205"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="61.542549727"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Proxy server should support proxy with --port 0  [Conformance]" classname="Kubernetes e2e suite" time="9.356142641"></testcase>
+  </testsuite>

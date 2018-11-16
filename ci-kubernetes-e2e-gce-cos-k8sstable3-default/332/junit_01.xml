@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="751.686210117">
+      <testcase name="[k8s.io] Probing container should be restarted with a exec &#34;cat /tmp/health&#34; liveness probe [Conformance]" classname="Kubernetes e2e suite" time="65.153783808"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified files with FSGroup ownership should support (root,0644,tmpfs)" classname="Kubernetes e2e suite" time="17.27612914"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run --rm job should create a job from an image, then delete the job  [Conformance]" classname="Kubernetes e2e suite" time="44.37843892"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-ui] Kubernetes Dashboard should check that the kubernetes-dashboard instance is alive" classname="Kubernetes e2e suite" time="13.337005549"></testcase>
+      <testcase name="[sig-apps] stateful Upgrade [Feature:StatefulUpgrade] [k8s.io] stateful upgrade should maintain a functioning cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if delete options say so" classname="Kubernetes e2e suite" time="51.549069029"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: tmpfs] when two pods mount a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should not provision a volume in an unmanaged GCE zone. [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should be restarted with a /healthz http liveness probe  [Conformance]" classname="Kubernetes e2e suite" time="40.085527496"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should run and stop complex daemon with node affinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with defaultMode set [Conformance]" classname="Kubernetes e2e suite" time="25.422133739"></testcase>
+      <testcase name="[sig-storage] ConfigMap updates should be reflected in volume  [Conformance]" classname="Kubernetes e2e suite" time="93.140630317"></testcase>
+      <testcase name="[sig-storage] Projected should provide podname as non-root with fsgroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="174.060831495"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp alpha unconfined annotation on the container [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default commmand (docker entrypoint)  [Conformance]" classname="Kubernetes e2e suite" time="13.36518544"></testcase>
+      <testcase name="[sig-auth] Advanced Audit should audit API calls [DisabledForLargeClusters]" classname="Kubernetes e2e suite" time="60.416440481"></testcase>
+  </testsuite>

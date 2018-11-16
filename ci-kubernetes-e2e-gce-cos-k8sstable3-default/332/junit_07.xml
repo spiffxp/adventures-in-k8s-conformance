@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="610.758039917">
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Guestbook application should create and stop a working application  [Conformance]" classname="Kubernetes e2e suite" time="138.351251082"></testcase>
+      <testcase name="[sig-storage] Volume Disk Format [Feature:vsphere] verify disk format type - zeroedthick is honored for dynamically provisioned pv using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Sysctls should reject invalid sysctls" classname="Kubernetes e2e suite" time="8.94273783"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule a pod w/ RW PD(s) mounted to 1 or more containers, write to PD, verify content, delete pod, and repeat in rapid succession [Slow] using 1 containers and 2 PDs" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] [Feature:FlexVolume] should be mountable when attachable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] don&#39;t cause replicaset controller creating extra pods if the initializer is not handled [Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support existing single file" classname="Kubernetes e2e suite" time="32.251866613"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should provision storage with mount options" classname="Kubernetes e2e suite" time="52.333850857"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks should be able to delete a non-existent PD without error" classname="Kubernetes e2e suite" time="9.037298891"></testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod" classname="Kubernetes e2e suite" time="31.860820882"></testcase>
+      <testcase name="[sig-storage] vsphere statefulset vsphere statefulset testing" classname="Kubernetes e2e suite" time="9.132138456">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 should support forwarding over websockets" classname="Kubernetes e2e suite" time="130.534922011"></testcase>
+      <testcase name="[sig-storage] Projected should set mode on item file [Conformance]" classname="Kubernetes e2e suite" time="17.173046753"></testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node {batch Job} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should delete pods created by rc when not orphaning" classname="Kubernetes e2e suite" time="22.458255321"></testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should have cluster metrics [Feature:StackdriverMonitoring]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec through kubectl proxy" classname="Kubernetes e2e suite" time="31.328114698"></testcase>
+      <testcase name="[sig-network] Services should preserve source pod IP for traffic thru service cluster IP" classname="Kubernetes e2e suite" time="80.215794115"></testcase>
+  </testsuite>

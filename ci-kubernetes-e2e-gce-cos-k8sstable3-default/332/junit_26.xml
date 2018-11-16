@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="7" failures="0" time="598.484751173">
+      <testcase name="[k8s.io] Probing container should *not* be restarted with a exec &#34;cat /tmp/health&#34; liveness probe [Conformance]" classname="Kubernetes e2e suite" time="138.590025271"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s memory request  [Conformance]" classname="Kubernetes e2e suite" time="14.009314546"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPreemption [Serial] [Feature:PodPreemption] validates pod anti-affinity works in preemption" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow substituting values in a container&#39;s command  [Conformance]" classname="Kubernetes e2e suite" time="15.416408621"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type from NodePort to ExternalName" classname="Kubernetes e2e suite" time="9.303850843"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl taint [Serial] should update the taint on a node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should provide basic identity" classname="Kubernetes e2e suite" time="249.690726604"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: udp  [Conformance]" classname="Kubernetes e2e suite" time="66.58531069"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support existing single file" classname="Kubernetes e2e suite" time="57.274977195"></testcase>
+  </testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="637.198176184">
+      <testcase name="[sig-storage] EmptyDir volumes volume on tmpfs should have the correct mode [Conformance]" classname="Kubernetes e2e suite" time="42.997597446"></testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from a Scheduler." classname="Kubernetes e2e suite" time="11.181095621"></testcase>
+      <testcase name="[k8s.io] [sig-node] kubelet [k8s.io] [sig-node] host cleanup with volume mounts [sig-storage][HostCleanup][Flaky] Host cleanup after disrupting NFS volume [NFS] after stopping the nfs-server and deleting the (active) client pod, the NFS mount and the pod&#39;s UID directory should be removed." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] HostPath should support r/w" classname="Kubernetes e2e suite" time="21.286705086"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify an existing and compatible SPBM policy is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on PodSelector [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Should recreate evicted statefulset [Conformance]" classname="Kubernetes e2e suite" time="50.849885407"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support existing directory" classname="Kubernetes e2e suite" time="29.696686142"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl logs should be able to retrieve and filter logs  [Conformance]" classname="Kubernetes e2e suite" time="41.83513282"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest logs" classname="Kubernetes e2e suite" time="264.36112195"></testcase>
+      <testcase name="[sig-storage] Regional PD [Feature:RegionalPD] RegionalPD should failover to a different zone when all nodes in one zone become unreachable [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] Multi-AZ Clusters should spread the pods of a service across zones" classname="Kubernetes e2e suite" time="10.80176395">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s memory limit [Conformance]" classname="Kubernetes e2e suite" time="18.340944766"></testcase>
+      <testcase name="[sig-auth] ServiceAccounts should mount an API token into pods  [Conformance]" classname="Kubernetes e2e suite" time="28.977715842"></testcase>
+      <testcase name="[sig-network] Networking should check kube-proxy urls" classname="Kubernetes e2e suite" time="63.742617099"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should deny crd creation" classname="Kubernetes e2e suite" time="31.372677024"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl api-versions should check if v1 is in available api versions  [Conformance]" classname="Kubernetes e2e suite" time="10.978450794"></testcase>
+  </testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="19" failures="0" time="886.720906396">
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner Default should be disabled by removing the default annotation [Serial] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should prevent NodePort collisions" classname="Kubernetes e2e suite" time="11.23973293"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PVC and a pre-bound PV: test write access" classname="Kubernetes e2e suite" time="44.79294379"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Deploy clustered applications [Feature:StatefulSet] [Slow] should creating a working zookeeper cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should work after restarting kube-proxy [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] vsphere cloud provider stress [Feature:vsphere] vsphere stress tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and ensure its status is promptly calculated." classname="Kubernetes e2e suite" time="14.346626128"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should adopt matching orphans and release non-matching pods" classname="Kubernetes e2e suite" time="74.982628639"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support non-existent path" classname="Kubernetes e2e suite" time="35.425940525"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s memory limit [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.700876264"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link] One pod requesting one prebound PVC should be able to mount volume and read from pod1" classname="Kubernetes e2e suite" time="45.591491475"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run rc should create an rc from an image  [Conformance]" classname="Kubernetes e2e suite" time="40.423952286"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:kubemci] single and multi-cluster ingresses should be able to exist together" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] ConfigMap should be consumable via the environment [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="21.199209033"></testcase>
+      <testcase name="[k8s.io] [sig-node] Events should be sent by kubelets and the scheduler about pods scheduling and running  [Conformance]" classname="Kubernetes e2e suite" time="32.401105078"></testcase>
+      <testcase name="[sig-storage] Downward API volume should update labels on modification [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="45.393533924"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir] Set fsGroup for local volume should set fsGroup for one pod" classname="Kubernetes e2e suite" time="40.003289036"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec through an HTTP proxy" classname="Kubernetes e2e suite" time="26.273475621"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] Certificates API should support building a client with a CSR" classname="Kubernetes e2e suite" time="22.225759097"></testcase>
+      <testcase name="[sig-apps] ReplicaSet should surface a failure condition on a common issue like exceeded quota" classname="Kubernetes e2e suite" time="15.040102244"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="48.888867717"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Scaling should happen in predictable order and halt if any stateful pod is unhealthy [Conformance]" classname="Kubernetes e2e suite" time="123.331041436"></testcase>
+      <testcase name="[sig-network] DNS should support configurable pod resolv.conf" classname="Kubernetes e2e suite" time="16.986259453"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should scale up GPU pool from 1 [GpuType:nvidia-tesla-v100] [Feature:ClusterSizeAutoscalingGpu]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] kubelet [k8s.io] [sig-node] Clean up pods on node kubelet should be able to delete 10 pods per node in 1m0s." classname="Kubernetes e2e suite" time="80.535388914"></testcase>
+  </testsuite>

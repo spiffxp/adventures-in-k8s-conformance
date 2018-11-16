@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="678.567234499">
+      <testcase name="[sig-scheduling] ResourceQuota should verify ResourceQuota with terminating scopes." classname="Kubernetes e2e suite" time="43.597614892"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="73.770070089"></testcase>
+      <testcase name="[sig-apps] CronJob should not emit unexpected warnings" classname="Kubernetes e2e suite" time="115.742152362"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that a file written to the vspehre volume mount before kubelet restart can be read after restart [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with multiple volumes from different datastore" classname="Kubernetes e2e suite" time="10.366838275">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with invalid diskStripes value is not honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing directory" classname="Kubernetes e2e suite" time="22.885341568"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment deployment should delete old replica sets" classname="Kubernetes e2e suite" time="35.542579359"></testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s memory request [Conformance]" classname="Kubernetes e2e suite" time="31.976811958"></testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should run Custom Metrics - Stackdriver Adapter [Feature:StackdriverCustomMetrics]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pods are pending due to host port conflict [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Provisioning on Datastore [Feature:vsphere] verify dynamically provisioned pv using storageclass fails on an invalid datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl replace should update a single-container pod&#39;s image  [Conformance]" classname="Kubernetes e2e suite" time="22.890428914"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should not deadlock when a pod&#39;s predecessor fails" classname="Kubernetes e2e suite" time="140.550986755"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="23.559986898">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected optional updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="37.365990749"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Servers with support for Table transformation should return generic metadata details across all namespaces for nodes" classname="Kubernetes e2e suite" time="11.808386123"></testcase>
+      <testcase name="[sig-storage] Volume Operations Storm [Feature:vsphere] should create pod with many volumes and verify no attach call fails" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should run a job to completion when tasks sometimes fail and are not locally restarted" classname="Kubernetes e2e suite" time="31.15852928"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects a client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="66.308546275"></testcase>
+  </testsuite>

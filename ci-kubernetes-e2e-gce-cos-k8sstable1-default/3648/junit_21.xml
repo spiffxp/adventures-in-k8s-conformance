@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="881.205518377">
+      <testcase name="[sig-network] DNS should provide DNS for ExternalName services" classname="Kubernetes e2e suite" time="131.447865937"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link-bindmounted] Set fsGroup for local volume should set different fsGroup for second pod if first pod is deleted" classname="Kubernetes e2e suite" time="50.298124359"></testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy logs on node with explicit kubelet port using proxy subresource  [Conformance]" classname="Kubernetes e2e suite" time="15.595640804"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="43.902953219"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support existing directory" classname="Kubernetes e2e suite" time="48.466656142"></testcase>
+      <testcase name="[sig-api-machinery] CustomResourceDefinition Watch CustomResourceDefinition Watch watch on custom resource definition objects" classname="Kubernetes e2e suite" time="55.105675257"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that taints-tolerations is respected if matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support pod.Spec.SecurityContext.RunAsUser" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link-bindmounted] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="41.342351694"></testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow substituting values in a container&#39;s args [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="16.20928298"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="96.253248112"></testcase>
+      <testcase name="[k8s.io] Probing container should *not* be restarted with a /healthz http liveness probe [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="256.956640349"></testcase>
+  </testsuite>

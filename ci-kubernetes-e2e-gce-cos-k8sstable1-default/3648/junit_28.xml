@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="13" failures="0" time="884.787747274">
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link-bindmounted] Set fsGroup for local volume should set fsGroup for one pod" classname="Kubernetes e2e suite" time="49.334139627"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest logs" classname="Kubernetes e2e suite" time="285.155365445"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for read-only PD with pod delete grace period of &#34;immediate (0s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should not schedule new jobs when ForbidConcurrent [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0666,default) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="19.185538535"></testcase>
+      <testcase name="[sig-api-machinery] Generated clientset should create v1beta1 cronJobs, delete cronJobs, watch cronJobs" classname="Kubernetes e2e suite" time="10.399037745"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings as non-root [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="15.789263194"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: block] [Feature:BlockVolume] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Update Demo should do a rolling update of a replication controller  [Conformance]" classname="Kubernetes e2e suite" time="84.651766782"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should scale down GPU pool from 1 [GpuType:nvidia-tesla-v100] [Feature:ClusterSizeAutoscalingGpu]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: blockfs] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="57.033826474"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] Set fsGroup for local volume should set fsGroup for one pod" classname="Kubernetes e2e suite" time="43.32954681"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects a client request should support a client that connects, sends NO DATA, and disconnects" classname="Kubernetes e2e suite" time="37.672007598"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a pod." classname="Kubernetes e2e suite" time="26.281329725"></testcase>
+      <testcase name="[sig-network] Services should serve a basic endpoint from pods  [Conformance]" classname="Kubernetes e2e suite" time="54.365980292"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="27.548507597"></testcase>
+      <testcase name="[sig-apps] Job should run a job to completion when tasks sometimes fail and are locally restarted" classname="Kubernetes e2e suite" time="47.918373165"></testcase>
+  </testsuite>

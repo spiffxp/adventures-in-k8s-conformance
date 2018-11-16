@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="18" failures="0" time="695.254882664">
+      <testcase name="[sig-storage] PV Protection Verify that PV bound to a PVC is not removed immediately" classname="Kubernetes e2e suite" time="43.675030596"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:Performance] should allow starting 30 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support file as subpath" classname="Kubernetes e2e suite" time="32.22840747"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:kubemci] should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Disk Size [Feature:vsphere] verify dynamically provisioned pv using storageclass with an invalid disk size fails" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should be able to scale a node group up from 0[Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support file as subpath" classname="Kubernetes e2e suite" time="10.568904274">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should work after restarting apiserver [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] AppArmor load AppArmor profiles can disable an AppArmor profile, using unconfined" classname="Kubernetes e2e suite" time="40.020433454"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should create a quota with scopes" classname="Kubernetes e2e suite" time="11.476241425"></testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should delete the signed bootstrap tokens from clusterInfo ConfigMap when bootstrap token is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for node-Service: udp" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes[Disruptive][Flaky] when kubelet restarts Should test that a volume mounted to a pod that is deleted while the kubelet is down unmounts when the kubelet returns." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support existing single file" classname="Kubernetes e2e suite" time="28.944233021"></testcase>
+      <testcase name="[sig-network] Services should use same NodePort with same port but different protocols" classname="Kubernetes e2e suite" time="10.862616466"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes[Disruptive][Flaky] when kube-controller-manager restarts should delete a bound PVC from a clientPod, restart the kube-control-manager, and ensure the kube-controller-manager does not crash" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks detach in a disrupted environment [Slow] [Disruptive] when pod is evicted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Proxy server should support --unix-socket=/path  [Conformance]" classname="Kubernetes e2e suite" time="14.654990304"></testcase>
+      <testcase name="[sig-storage] CSI Volumes [Flaky] Sanity CSI plugin test using hostPath CSI driver should provision storage with a hostPath CSI driver" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should be able to switch between IG and NEG modes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] Advanced Audit should audit API calls [DisabledForLargeClusters]" classname="Kubernetes e2e suite" time="68.903369258"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s cpu limit  [Conformance]" classname="Kubernetes e2e suite" time="23.258570822"></testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work for type=NodePort" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Aggregator Should be able to support the 1.7 Sample API Server using the current Aggregator" classname="Kubernetes e2e suite" time="50.994416943"></testcase>
+      <testcase name="[k8s.io] [sig-node] Mount propagation should propagate mounts to the host" classname="Kubernetes e2e suite" time="111.205069918"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s memory request  [Conformance]" classname="Kubernetes e2e suite" time="19.420715126"></testcase>
+      <testcase name="[sig-network] ServiceLoadBalancer [Feature:ServiceLoadBalancer] should support simple GET on Ingress ips" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should exceed active deadline" classname="Kubernetes e2e suite" time="49.741059378"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should not provision a volume in an unmanaged GCE zone. [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide default limits.cpu/memory from node allocatable  [Conformance]" classname="Kubernetes e2e suite" time="19.438983057"></testcase>
+      <testcase name="[sig-storage] Volume Provisioning On Clustered Datastore [Feature:vsphere] verify dynamic provision with spbm policy on clustered datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp alpha docker/default annotation [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes Cinder [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] EquivalenceCache [Serial] validates GeneralPredicates is properly invalidated when a pod is scheduled [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for endpoint-Service: http" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] [Feature:GPU] run Nvidia GPU tests on Container Optimized OS only" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with FSGroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] vcp-performance [Feature:vsphere] vcp performance tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide host IP as an env var  [Conformance]" classname="Kubernetes e2e suite" time="16.928601353"></testcase>
+      <testcase name="[sig-storage] Volume FStype [Feature:vsphere] verify fstype - ext3 formatted volume" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Secrets should be consumable from pods in env vars  [Conformance]" classname="Kubernetes e2e suite" time="19.839291818"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0666,default) [Conformance]" classname="Kubernetes e2e suite" time="19.505525611"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Nodes [Disruptive] Resize [Slow] should be able to delete nodes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should be able to scale down by draining system pods with pdb[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects NO client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="92.598061625"></testcase>
+  </testsuite>

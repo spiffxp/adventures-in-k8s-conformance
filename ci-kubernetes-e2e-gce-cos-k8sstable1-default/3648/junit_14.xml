@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="22" failures="0" time="871.754926184">
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified [NodeFeature:FSGroup] volume on default medium should have the correct mode using FSGroup" classname="Kubernetes e2e suite" time="18.394707997"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="17.895189657"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Deploy clustered applications [Feature:StatefulSet] [Slow] should creating a working CockroachDB cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t be able to scale down when rescheduling a pod is required, but pdb doesn&#39;t allow drain[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] ingress Downgrade [Feature:IngressDowngrade] ingress downgrade should maintain a functioning ingress" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Local volume that cannot be mounted [Slow] should fail due to non-existent path" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] should be mountable when attachable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support non-existent path" classname="Kubernetes e2e suite" time="52.771336386"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="40.845717239"></testcase>
+      <testcase name="[k8s.io] InitContainer [NodeConformance] should invoke init containers on a RestartNever pod" classname="Kubernetes e2e suite" time="18.137717803"></testcase>
+      <testcase name="[sig-network] ServiceLoadBalancer [Feature:ServiceLoadBalancer] should support simple GET on Ingress ips" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should provision storage with non-default reclaim policy Retain" classname="Kubernetes e2e suite" time="24.140107698"></testcase>
+      <testcase name="[sig-network] Services should be able to update NodePorts with two same port numbers but different protocols" classname="Kubernetes e2e suite" time="14.560472652"></testcase>
+      <testcase name="[sig-service-catalog] [Feature:PodPreset] PodPreset should not modify the pod on conflict" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should avoid to schedule to node that have avoidPod annotation" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Provisioning on Datastore [Feature:vsphere] verify dynamically provisioned pv using storageclass fails on an invalid datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings and Item mode set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="17.252744984"></testcase>
+      <testcase name="[sig-storage] Secrets should be consumable from pods in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.500818654"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule a pod w/ RW PD(s) mounted to 1 or more containers, write to PD, verify content, delete pod, and repeat in rapid succession [Slow] using 4 containers and 1 PDs" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify clean up of stale dummy VM for dynamically provisioned pvc using SPBM policy" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PVC Protection Verify &#34;immediate&#34; deletion of a PVC that is not in active use by a pod" classname="Kubernetes e2e suite" time="18.755496899"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="73.514962257"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="60.730654271"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with invalid hostFailuresToTolerate value is not honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if deleteOptions.OrphanDependents is nil" classname="Kubernetes e2e suite" time="49.32157915"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:kubemci] should create ingress with pre-shared certificate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume expand [Slow] Verify if editing PVC allows resize" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should support allow-all policy [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicaSet Should scale from 1 pod to 3 pods and from 3 to 5" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0666,tmpfs) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.284958032"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified [NodeFeature:FSGroup] files with FSGroup ownership should support (root,0644,tmpfs)" classname="Kubernetes e2e suite" time="16.23756715"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should test that deleting a claim before the volume is provisioned deletes the volume." classname="Kubernetes e2e suite" time="41.218765362"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Addon update should propagate add-on file changes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should run and stop complex daemon [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PV and a pre-bound PVC: test write access" classname="Kubernetes e2e suite" time="43.288832846"></testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should delete the token secret when the secret expired" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] PrivilegedPod [NodeConformance] should enable privileged commands" classname="Kubernetes e2e suite" time="59.272007177"></testcase>
+      <testcase name="[sig-apps] Job should delete a job" classname="Kubernetes e2e suite" time="52.185104989"></testcase>
+      <testcase name="[sig-cluster-lifecycle] gpu Upgrade [Feature:GPUUpgrade] master upgrade should NOT disrupt gpu pod [Feature:GPUMasterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pod requesting EmptyDir volume is pending [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy through a service and a pod  [Conformance]" classname="Kubernetes e2e suite" time="36.879625965"></testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s cpu request [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="19.822121232"></testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should run Custom Metrics - Stackdriver Adapter for external metrics [Feature:StackdriverExternalMetrics]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify an if a SPBM policy and VSAN capabilities cannot be honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should verify ResourceQuota with best effort scope." classname="Kubernetes e2e suite" time="28.245166522"></testcase>
+  </testsuite>

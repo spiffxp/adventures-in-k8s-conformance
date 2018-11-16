@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="674.475496934">
+      <testcase name="[sig-network] Services should release NodePorts on delete" classname="Kubernetes e2e suite" time="20.522131002"></testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] A node shouldn&#39;t be able to create an other node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with secret pod" classname="Kubernetes e2e suite" time="31.802709938"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="10.128378214">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="45.859618776"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should allow egress access on one named port [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should replace jobs when ReplaceConcurrent" classname="Kubernetes e2e suite" time="143.247658431"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should delete jobs and pods created by cronjob" classname="Kubernetes e2e suite" time="25.205509513"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings and Item Mode set [Conformance]" classname="Kubernetes e2e suite" time="13.168909484"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 [Slow] Nginx should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes NFS should be mountable" classname="Kubernetes e2e suite" time="72.07198626"></testcase>
+      <testcase name="[sig-apps] Job should delete a job" classname="Kubernetes e2e suite" time="21.220904408"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes volume on tmpfs should have the correct mode [Conformance]" classname="Kubernetes e2e suite" time="15.09621939"></testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work for type=NodePort" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should allow ingress access on one named port [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner Default should be disabled by changing the default annotation[Slow] [Serial] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by dropping all outbound packets for a while and ensure they function afterwards" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with defaultMode and fsGroup set [Conformance]" classname="Kubernetes e2e suite" time="17.460264242"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes Default StorageClass pods that use multiple volumes should be reschedulable" classname="Kubernetes e2e suite" time="209.918665678"></testcase>
+  </testsuite>

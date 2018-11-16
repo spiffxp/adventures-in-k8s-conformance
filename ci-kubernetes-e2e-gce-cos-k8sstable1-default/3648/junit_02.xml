@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="1110.227007085">
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] don&#39;t cause replicaset controller creating extra pods if the initializer is not handled [Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="59.37471182"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="20.707681824">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates resource limits of pods that are allowed to run  [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings as non-root with FSGroup [NodeFeature:FSGroup]" classname="Kubernetes e2e suite" time="16.34661529"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning [k8s.io] GlusterDynamicProvisioner should create and delete persistent volumes [fast]" classname="Kubernetes e2e suite" time="82.278833755"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should scale up GPU pool from 1 [GpuType:nvidia-tesla-p100] [Feature:ClusterSizeAutoscalingGpu]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] gpu Upgrade [Feature:GPUUpgrade] cluster downgrade should be able to run gpu pod after downgrade [Feature:GPUClusterDowngrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 2 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with FSGroup [NodeFeature:FSGroup]" classname="Kubernetes e2e suite" time="22.739800198"></testcase>
+      <testcase name="[sig-storage] [Serial] Volume metrics PVController should create none metrics for pvc controller before creating any PV or PVC" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0644,tmpfs) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="22.187870717"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl expose should create services for rc  [Conformance]" classname="Kubernetes e2e suite" time="37.545480802"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver [Feature:StackdriverLogging] [Soak] should ingest logs from applications running for a prolonged amount of time" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should adopt matching orphans and release non-matching pods" classname="Kubernetes e2e suite" time="75.087547693"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that deleting the Namespace of a PVC and Pod causes the successful detach of vsphere volume" classname="Kubernetes e2e suite" time="11.779308343">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should replace jobs when ReplaceConcurrent" classname="Kubernetes e2e suite" time="142.343770667"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should scale up when non expendable pod is created [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan RS created by deployment when deleteOptions.PropagationPolicy is Orphan [Conformance]" classname="Kubernetes e2e suite" time="50.380303014"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 4 PVs and 2 PVCs: test write access [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: block] [Feature:BlockVolume] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with projected pod" classname="Kubernetes e2e suite" time="30.288712154"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="16.074972338"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Burst scaling should run to completion even with unhealthy pods [Conformance]" classname="Kubernetes e2e suite" time="398.163201098"></testcase>
+  </testsuite>

@@ -1,0 +1,15 @@
+{
+  "timestamp": 1541518560,
+  "version":"v1.13.0-alpha.3.252+c2aa35866c9632",
+  "passed": true,
+  "result": "SUCCESS",
+  "job-version":"v1.13.0-alpha.3.252+c2aa35866c9632",
+  "metadata": {
+    "infra-commit": "deadbeef",
+    "pod": "deadbeef-cafe-babe-1337-1234567",
+    "job-version":"v1.13.0-alpha.3.252+c2aa35866c9632",
+    "master_os_image":"cos-stable-65-10323-64-0",
+    "node_os_image":"cos-stable-65-10323-64-0",
+    "version":"v1.13.0-alpha.3.252+c2aa35866c9632"
+  }
+}

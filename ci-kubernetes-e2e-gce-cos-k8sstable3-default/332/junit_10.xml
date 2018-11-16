@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="13" failures="0" time="596.669335661">
+      <testcase name="[sig-storage] Volume plugin streaming [Slow] Ceph-RBD [Feature:Volumes] should write files of various sizes, verify size, validate content" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod with mountPath of existing file" classname="Kubernetes e2e suite" time="36.269146836"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:LabelSelector] [sig-storage] Selector-Label Volume Binding:vsphere should bind volume with claim for given label" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] CA ignores unschedulable pods while scheduling schedulable pods [Feature:ClusterAutoscalerScalability6]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging using Elasticsearch [Feature:Elasticsearch] should check that logs from containers are ingested into Elasticsearch" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by ordering clean reboot and ensure they function upon restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: enough pods, absolute =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="47.472355691"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support existing single file" classname="Kubernetes e2e suite" time="52.372793007"></testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [ReplicationController] should eagerly create replacement pod during network partition when termination grace is non-zero" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should reject quota with invalid scopes" classname="Kubernetes e2e suite" time="11.084684556"></testcase>
+      <testcase name="[k8s.io] Pods should allow activeDeadlineSeconds to be updated  [Conformance]" classname="Kubernetes e2e suite" time="25.644676109"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="8.962435546">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] Deployment Should scale from 1 pod to 3 pods and from 3 to 5" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should exceed active deadline" classname="Kubernetes e2e suite" time="44.912698102"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type from ClusterIP to ExternalName" classname="Kubernetes e2e suite" time="9.80030798"></testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy through a service and a pod  [Conformance]" classname="Kubernetes e2e suite" time="47.213636199"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 0 secrets, 2 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should update annotations on modification [Conformance]" classname="Kubernetes e2e suite" time="38.255010552"></testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] should scale down empty nodes [Feature:ClusterAutoscalerScalability3]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment deployment should support rollover" classname="Kubernetes e2e suite" time="40.112245188"></testcase>
+      <testcase name="[sig-apps] DaemonRestart [Disruptive] Controller Manager should not create/delete replicas across restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PVC and a pre-bound PV: test write access" classname="Kubernetes e2e suite" time="57.809148609"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that NodeAffinity is respected if not matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if deleteOptions.OrphanDependents is nil" classname="Kubernetes e2e suite" time="44.797194433"></testcase>
+      <testcase name="[sig-multicluster] Multi-AZ Clusters should schedule pods in the same zones as statically provisioned PVs [sig-storage]" classname="Kubernetes e2e suite" time="8.85357758">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Provisioning On Clustered Datastore [Feature:vsphere] verify dynamic provision with default parameter on clustered datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: gce-localssd-scsi-fs] when pod using local volume with non-existant path should not be able to mount" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking should check kube-proxy urls" classname="Kubernetes e2e suite" time="76.18023138"></testcase>
+  </testsuite>

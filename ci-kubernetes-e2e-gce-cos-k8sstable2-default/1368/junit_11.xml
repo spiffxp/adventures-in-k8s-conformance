@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="631.243544419">
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that deleting a PVC before the pod does not cause pod deletion to fail on vsphere volume detach" classname="Kubernetes e2e suite" time="48.122903733">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl rolling-update should support rolling-update to same image  [Conformance]" classname="Kubernetes e2e suite" time="47.02337465"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for RW PD with pod delete grace period of &#34;default (30s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] vsphere cloud provider stress [Feature:vsphere] vsphere stress tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 should support forwarding over websockets" classname="Kubernetes e2e suite" time="97.552321178"></testcase>
+      <testcase name="[sig-network] DNS should support configurable pod resolv.conf" classname="Kubernetes e2e suite" time="32.577957012"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings and Item mode set [Conformance]" classname="Kubernetes e2e suite" time="31.812030786"></testcase>
+      <testcase name="[sig-storage] [Serial] Volume metrics should create prometheus metrics for volume provisioning and attach/detach" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support inline execution and attach" classname="Kubernetes e2e suite" time="95.046426666"></testcase>
+      <testcase name="[k8s.io] [sig-node] Kubelet [Serial] [Slow] [k8s.io] [sig-node] regular resource usage tracking resource tracking for 0 pods per node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should use the image defaults if command and args are blank  [Conformance]" classname="Kubernetes e2e suite" time="21.079985178"></testcase>
+      <testcase name="[k8s.io] Sysctls should support unsafe sysctls which are actually whitelisted" classname="Kubernetes e2e suite" time="23.002994444"></testcase>
+      <testcase name="[sig-scalability] Empty [Feature:Empty] starts a pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [Job] should create new pods when node is partitioned" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [ReplicationController] should recreate pods scheduled on the unreachable node AND allow scheduling of pods on a node after it rejoins the cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Redis should create and stop redis servers" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume as non-root with defaultMode and fsGroup set [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default command (docker entrypoint)  [Conformance]" classname="Kubernetes e2e suite" time="22.380701457"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should not reconcile manually modified health check for ingress" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support non-existent path" classname="Kubernetes e2e suite" time="32.272335344"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support non-existent path" classname="Kubernetes e2e suite" time="19.517453119"></testcase>
+      <testcase name="[sig-storage] Projected updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="102.29153264"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate pod and apply defaults after mutation" classname="Kubernetes e2e suite" time="47.384608394"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid objectSpaceReservation and iopsLimit values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas multizone workers [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="605.473183622">
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] when one pod requests one prebound PVC should be able to mount volume and read from pod1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should be updated  [Conformance]" classname="Kubernetes e2e suite" time="48.954234054"></testcase>
+      <testcase name="[k8s.io] LimitRange should create a LimitRange with default ephemeral storage and ensure pod has the default applied." classname="Kubernetes e2e suite" time="10.778511567">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0666,tmpfs) [Conformance]" classname="Kubernetes e2e suite" time="18.06196442"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="122.352528548"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support file as subpath" classname="Kubernetes e2e suite" time="11.474586405">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on NamespaceSelector [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support existing directory" classname="Kubernetes e2e suite" time="8.887015784">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicaSet Should scale from 1 pod to 3 pods and from 3 to 5" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] vcp at scale [Feature:vsphere]  vsphere scale tests" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a replica set." classname="Kubernetes e2e suite" time="15.720161683"></testcase>
+      <testcase name="[sig-storage] Volume plugin streaming [Slow] GlusterFS should write files of various sizes, verify size, validate content" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for RW PD with pod delete grace period of &#34;immediate (0s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with projected pod" classname="Kubernetes e2e suite" time="30.379987687"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that required NodeAffinity setting is respected if matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from API server." classname="Kubernetes e2e suite" time="11.644355524"></testcase>
+      <testcase name="[k8s.io] GKE local SSD [Feature:GKELocalSSD] should write and read from node local SSD [Feature:GKELocalSSD]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should perform canary updates and phased rolling updates of template modifications" classname="Kubernetes e2e suite" time="143.799498936"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 2 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="29.83347775"></testcase>
+      <testcase name="[sig-api-machinery] Servers with support for Table transformation should return generic metadata details across all namespaces for nodes" classname="Kubernetes e2e suite" time="8.825025185"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should exceed backoffLimit" classname="Kubernetes e2e suite" time="19.048654438"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should be able to scale down by draining multiple pods one by one as dictated by pdb[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec" classname="Kubernetes e2e suite" time="35.168079329"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicationController Should scale from 5 pods to 3 pods and from 3 to 1 and verify decision stability" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] DNS horizontal autoscaling kube-dns-autoscaler should scale kube-dns pods in both nonfaulty and faulty scenarios" classname="Kubernetes e2e suite" time="42.618458987"></testcase>
+  </testsuite>

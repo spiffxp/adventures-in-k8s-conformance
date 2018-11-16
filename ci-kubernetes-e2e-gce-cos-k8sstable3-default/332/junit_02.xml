@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="13" failures="0" time="682.822977331">
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support non-existent path" classname="Kubernetes e2e suite" time="19.830385624"></testcase>
+      <testcase name="[k8s.io] Variable Expansion should allow composing env vars into new env vars  [Conformance]" classname="Kubernetes e2e suite" time="28.224642246"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs create a PV and a pre-bound PVC: test write access" classname="Kubernetes e2e suite" time="55.545448594"></testcase>
+      <testcase name="[sig-network] Services [Feature:GCEAlphaFeature][Slow] should be able to create and tear down a standard-tier load balancer [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Hazelcast should create and scale hazelcast" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects NO client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="90.948701531"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type from ExternalName to ClusterIP" classname="Kubernetes e2e suite" time="9.061776682"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes volume on default medium should have the correct mode [Conformance]" classname="Kubernetes e2e suite" time="13.489793421"></testcase>
+      <testcase name="[k8s.io] KubeletManagedEtcHosts should test kubelet managed /etc/hosts file  [Conformance]" classname="Kubernetes e2e suite" time="67.967473369"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS should provide DNS for services  [Conformance]" classname="Kubernetes e2e suite" time="26.596713809"></testcase>
+      <testcase name="[sig-scheduling] LimitRange should create a LimitRange with defaults and ensure pod has those defaults applied." classname="Kubernetes e2e suite" time="36.738258932"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should support retrieving logs from the container over websockets" classname="Kubernetes e2e suite" time="65.258052504"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="11.173309649">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] kube-proxy migration [Feature:KubeProxyDaemonSetMigration] Downgrade kube-proxy from a DaemonSet to static pods should maintain a functioning cluster [Feature:KubeProxyDaemonSetDowngrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail if subpath file is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] node upgrade should maintain a functioning cluster [Feature:NodeUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking should provide Internet connection for containers [Feature:Networking-IPv6][Experimental]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] HostPath should support r/w" classname="Kubernetes e2e suite" time="24.629874007"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Proxy server should support --unix-socket=/path  [Conformance]" classname="Kubernetes e2e suite" time="8.877664019000001"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [DisabledForLargeClusters] ReplicationController light Should scale from 2 pods to 1 pod" classname="Kubernetes e2e suite" time="176.829821669"></testcase>
+  </testsuite>

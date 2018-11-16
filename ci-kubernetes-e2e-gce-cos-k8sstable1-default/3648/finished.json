@@ -1,0 +1,15 @@
+{
+  "timestamp": 1536882764, 
+  "version": "v1.11.3-beta.0.71+a4529464e4629c", 
+  "result": "SUCCESS", 
+  "passed": true, 
+  "job-version": "v1.11.3-beta.0.71+a4529464e4629c", 
+  "metadata": {
+    "node_os_image": "cos-stable-65-10323-64-0", 
+    "infra-commit": "bcf51042f", 
+    "version": "v1.11.3-beta.0.71+a4529464e4629c", 
+    "master_os_image": "cos-stable-65-10323-64-0", 
+    "job-version": "v1.11.3-beta.0.71+a4529464e4629c", 
+    "pod": "b3c7b9fc-b7aa-11e8-99fd-0a580a6c0360"
+  }
+}

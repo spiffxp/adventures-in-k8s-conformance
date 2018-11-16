@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="600.315299865">
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0644,default) [Conformance]" classname="Kubernetes e2e suite" time="20.031785381"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname as non-root with fsgroup and defaultMode [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Firewall rule [Slow] [Serial] should create valid firewall rules for LoadBalancer type service" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pods are pending due to pod anti-affinity [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from a Scheduler." classname="Kubernetes e2e suite" time="8.793719401"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl rolling-update should support rolling-update to same image  [Conformance]" classname="Kubernetes e2e suite" time="67.423687986"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Restart [Disruptive] should restart all nodes and ensure all nodes and pods recover" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support file as subpath" classname="Kubernetes e2e suite" time="87.414227936"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl label should update the label on a resource  [Conformance]" classname="Kubernetes e2e suite" time="19.809017382"></testcase>
+      <testcase name="[sig-network] DNS should provide DNS for pods for Hostname and Subdomain" classname="Kubernetes e2e suite" time="32.276000943"></testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] Should update pod when spec was updated and update strategy is RollingUpdate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicationController should serve a basic image on each replica with a private image" classname="Kubernetes e2e suite" time="38.519051954"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: dir] when pod&#39;s node is different from PV&#39;s NodeName should not be able to mount due to different NodeName" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should verify ResourceQuota with best effort scope." classname="Kubernetes e2e suite" time="27.606282142"></testcase>
+      <testcase name="[sig-network] DNS configMap nameserver should be able to change stubDomain configuration [Slow][Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS should provide DNS for the cluster  [Conformance]" classname="Kubernetes e2e suite" time="34.0314036"></testcase>
+      <testcase name="[sig-instrumentation] Monitoring [Feature:Influxdb] should verify monitoring pods and all cluster nodes are available on influxdb using heapster." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should not schedule new jobs when ForbidConcurrent [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Nodes [Disruptive] Resize [Slow] should be able to delete nodes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes GCEPD should test that deleting the Namespace of a PVC and Pod causes the successful detach of Persistent Disk" classname="Kubernetes e2e suite" time="136.6005604"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Update Demo should create and stop a replication controller  [Conformance]" classname="Kubernetes e2e suite" time="28.438371267"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="19.440924448"></testcase>
+      <testcase name="[k8s.io] EquivalenceCache [Serial] validates GeneralPredicates is properly invalidated when a pod is scheduled [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: dir] when pod&#39;s node is different from PV&#39;s NodeAffinity should not be able to mount due to different NodeAffinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0777,tmpfs) [Conformance]" classname="Kubernetes e2e suite" time="15.116502508"></testcase>
+      <testcase name="[sig-auth] ServiceAccounts should ensure a single API token exists" classname="Kubernetes e2e suite" time="16.494690499"></testcase>
+  </testsuite>

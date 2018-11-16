@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="695.852276912">
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified files with FSGroup ownership should support (root,0644,tmpfs)" classname="Kubernetes e2e suite" time="46.48295884"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicaSet Should scale from 1 pod to 3 pods and from 3 to 5" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Disk Format [Feature:vsphere] verify disk format type - eagerzeroedthick is honored for dynamically provisioned pv using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support pod.Spec.SecurityContext.SupplementalGroups" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicationController Should scale from 1 pod to 3 pods and from 3 to 5 and verify decision stability" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec through an HTTP proxy" classname="Kubernetes e2e suite" time="31.180529271"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on Ports [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] SSH should SSH to all nodes and run commands" classname="Kubernetes e2e suite" time="21.849793728"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t scale up when expendable pod is created [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="25.089843137"></testcase>
+      <testcase name="[sig-apps] CronJob should replace jobs when ReplaceConcurrent" classname="Kubernetes e2e suite" time="167.5276211"></testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [StatefulSet] should come back up if node goes down [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Generated clientset should create v1beta1 cronJobs, delete cronJobs, watch cronJobs" classname="Kubernetes e2e suite" time="21.036726685"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should scale down when expendable pod is running [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] gpu Upgrade [Feature:GPUUpgrade] master upgrade should NOT disrupt gpu pod [Feature:GPUMasterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run --rm job should create a job from an image, then delete the job  [Conformance]" classname="Kubernetes e2e suite" time="23.487158695"></testcase>
+      <testcase name="[sig-storage] GCP Volumes GlusterFS should be mountable" classname="Kubernetes e2e suite" time="43.210773181"></testcase>
+      <testcase name="[sig-apps] ReplicaSet should adopt matching pods on creation and release no longer matching pods" classname="Kubernetes e2e suite" time="41.921104447"></testcase>
+      <testcase name="[sig-storage] Ephemeralstorage When pod refers to non-existent ephemeral storage should allow deletion of pod with invalid volume : configmap" classname="Kubernetes e2e suite" time="51.172354337"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify if a SPBM policy is not honored on a non-compatible datastore for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should delete successful finished jobs with limit of one successful job" classname="Kubernetes e2e suite" time="132.718904919"></testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should be able to deny pod and configmap creation" classname="Kubernetes e2e suite" time="79.029387267"></testcase>
+  </testsuite>

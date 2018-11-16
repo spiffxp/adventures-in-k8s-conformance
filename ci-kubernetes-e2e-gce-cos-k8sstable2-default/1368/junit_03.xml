@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="11" failures="0" time="654.631067167">
+      <testcase name="[sig-storage] Volumes GlusterFS should be mountable" classname="Kubernetes e2e suite" time="53.584493974"></testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should allow pods under the privileged extensions.PodSecurityPolicy" classname="Kubernetes e2e suite" time="10.756915013">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should adopt matching orphans and release non-matching pods" classname="Kubernetes e2e suite" time="78.199837327"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for RW PD with pod delete grace period of &#34;immediate (0s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for read-only PD with pod delete grace period of &#34;immediate (0s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Local volume provisioner [Serial] should create and recreate local persistent volume" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide node allocatable (memory) as default memory limit if the limit is not set  [Conformance]" classname="Kubernetes e2e suite" time="14.879867573"></testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should delete the token secret when the secret expired" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with multiple volumes from same datastore" classname="Kubernetes e2e suite" time="10.90319048">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="63.556747016"></testcase>
+      <testcase name="[sig-apps] DaemonRestart [Disruptive] Controller Manager should not create/delete replicas across restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] GCP Volumes NFSv3 should be mountable for NFSv3" classname="Kubernetes e2e suite" time="76.266684859"></testcase>
+      <testcase name="[sig-scheduling] Multi-AZ Cluster Volumes [sig-storage] should only be allowed to provision PDs in zones where nodes exist" classname="Kubernetes e2e suite" time="24.807065391">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node { ReplicationController} with 0 secrets, 0 configmaps and 2 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Cadvisor should be healthy on every node." classname="Kubernetes e2e suite" time="11.705420808"></testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: maxUnavailable deny evictions, integer =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="96.753922789"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run job should create a job from an image when restart is OnFailure  [Conformance]" classname="Kubernetes e2e suite" time="11.955643146"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl version should check is all data is printed  [Conformance]" classname="Kubernetes e2e suite" time="13.703379212"></testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with ext4" classname="Kubernetes e2e suite" time="67.880966615"></testcase>
+      <testcase name="[sig-storage] ConfigMap optional updates should be reflected in volume  [Conformance]" classname="Kubernetes e2e suite" time="107.606754587"></testcase>
+  </testsuite>

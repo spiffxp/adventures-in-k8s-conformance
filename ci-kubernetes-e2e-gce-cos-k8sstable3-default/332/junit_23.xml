@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="8" failures="0" time="648.813644191">
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects a client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="65.40664997"></testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with xfs" classname="Kubernetes e2e suite" time="9.27695482">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for client IP based session affinity: http" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should run and stop complex daemon" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Kubelet [Serial] [Slow] [k8s.io] [sig-node] regular resource usage tracking resource tracking for 100 pods per node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks schedule a pod w/ RW PD(s) mounted to 1 or more containers, write to PD, verify content, delete pod, and repeat in rapid succession [Slow] using 4 containers and 1 PDs" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] shouldn&#39;t scale down with underutilized nodes due to host port conflicts [Feature:ClusterAutoscalerScalability5]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] HostPath should support existing single file subPath" classname="Kubernetes e2e suite" time="15.701105515"></testcase>
+      <testcase name="[sig-network] Networking IPerf IPv4 [Experimental] [Feature:Networking-IPv4] [Slow] [Feature:Networking-Performance] should transfer ~ 1GB onto the service endpoint 1 servers (maximum of 1 clients)" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] master upgrade should maintain a functioning cluster [Feature:MasterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should run a job to completion when tasks succeed" classname="Kubernetes e2e suite" time="31.674977546"></testcase>
+      <testcase name="[k8s.io] [sig-node] Pod garbage collector [Feature:PodGarbageCollector] [Slow] should handle the creation of 1000 pods" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Cassandra should create and scale cassandra" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicationController should surface a failure condition on a common issue like exceeded quota" classname="Kubernetes e2e suite" time="13.278157279"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should delete persistent volume when reclaimPolicy set to delete and associated claim is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with defaultMode and fsGroup set [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [DisabledForLargeClusters] ReplicationController light Should scale from 1 pod to 2 pods" classname="Kubernetes e2e suite" time="237.240707135"></testcase>
+      <testcase name="[sig-api-machinery] ConfigMap should be consumable via the environment  [Conformance]" classname="Kubernetes e2e suite" time="17.180945469"></testcase>
+      <testcase name="[k8s.io] InitContainer should invoke init containers on a RestartNever pod" classname="Kubernetes e2e suite" time="15.859963318"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should perform rolling updates and roll backs of template modifications" classname="Kubernetes e2e suite" time="195.75324662"></testcase>
+  </testsuite>

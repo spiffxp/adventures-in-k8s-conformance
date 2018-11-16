@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="636.32149287">
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support volume SELinux relabeling" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS should provide DNS for services  [Conformance]" classname="Kubernetes e2e suite" time="51.319591266"></testcase>
+      <testcase name="[sig-storage] Node Poweroff [Feature:vsphere] [Slow] [Disruptive] verify volume status after node power off" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] [Serial] Volume metrics PVController should create bound pv/pvc count metrics for pvc controller after creating both pv and pvc" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:HighDensityPerformance] should allow starting 95 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should forbid pod creation when no PSP is available" classname="Kubernetes e2e suite" time="12.551387955">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl apply apply set/view last-applied" classname="Kubernetes e2e suite" time="32.567674557"></testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] should install plugin without kubelet restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that deleting the Namespace of a PVC and Pod causes the successful detach of vsphere volume" classname="Kubernetes e2e suite" time="13.546410564">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicationController should adopt matching pods on creation" classname="Kubernetes e2e suite" time="36.809854398"></testcase>
+      <testcase name="[k8s.io] Sysctls should support sysctls" classname="Kubernetes e2e suite" time="20.697175751"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Pods should function for intra-pod communication: udp  [Conformance]" classname="Kubernetes e2e suite" time="69.921610852"></testcase>
+      <testcase name="[sig-network] Services should check NodePort out-of-range" classname="Kubernetes e2e suite" time="10.624602325"></testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: too few pods, replicaSet, percentage =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="103.267940191"></testcase>
+      <testcase name="[sig-apps] Job should delete a job" classname="Kubernetes e2e suite" time="19.409785515"></testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should enforce the restricted extensions.PodSecurityPolicy" classname="Kubernetes e2e suite" time="11.289387945">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="165.782510184"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Deploy clustered applications [Feature:StatefulSet] [Slow] should creating a working zookeeper cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl taint [Serial] should remove all the taints with the same key off a node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should only allow access from service loadbalancer source ranges [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with the same volume source on the same worker node" classname="Kubernetes e2e suite" time="10.535872784">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support non-existent path" classname="Kubernetes e2e suite" time="56.326819007"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Addon update should propagate add-on file changes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should allow pods under the privileged policy.PodSecurityPolicy" classname="Kubernetes e2e suite" time="11.153148532">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

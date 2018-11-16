@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="671.057621112">
+      <testcase name="[k8s.io] [sig-node] Pod garbage collector [Feature:PodGarbageCollector] [Slow] should handle the creation of 1000 pods" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if deleteOptions.OrphanDependents is nil" classname="Kubernetes e2e suite" time="51.236627816"></testcase>
+      <testcase name="[k8s.io] [sig-node] Pods Extended [k8s.io] Delete Grace Period should be submitted and removed  [Flaky] [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="12.770435399">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support file as subpath" classname="Kubernetes e2e suite" time="49.216195197"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Hazelcast should create and scale hazelcast" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PVC Protection Verify that PVC in active use by a pod is not removed immediately" classname="Kubernetes e2e suite" time="73.918689103"></testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] CA ignores unschedulable pods while scheduling schedulable pods [Feature:ClusterAutoscalerScalability6]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should be able to update NodePorts with two same port numbers but different protocols" classname="Kubernetes e2e suite" time="11.708453932"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should not be blocked by dependency circle [Conformance]" classname="Kubernetes e2e suite" time="15.947381496"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging using Elasticsearch [Feature:Elasticsearch] should check that logs from containers are ingested into Elasticsearch" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PVC Protection Verify that scheduling of a pod that uses PVC that is being deleted fails and the pod becomes Unschedulable" classname="Kubernetes e2e suite" time="98.104087897"></testcase>
+      <testcase name="[k8s.io] InitContainer should not start app containers and fail the pod if init containers fail on a RestartNever pod" classname="Kubernetes e2e suite" time="22.916089616"></testcase>
+      <testcase name="[sig-instrumentation] MetricsGrabber should grab all metrics from a ControllerManager." classname="Kubernetes e2e suite" time="11.192927878"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] node upgrade should maintain a functioning cluster [Feature:NodeUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS configMap federations should be able to change federation configuration [Slow][Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should create ingress with backside re-encryption" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should *not* be restarted with a exec &#34;cat /tmp/health&#34; liveness probe [Conformance]" classname="Kubernetes e2e suite" time="139.030673808"></testcase>
+      <testcase name="[k8s.io] Pods should be updated  [Conformance]" classname="Kubernetes e2e suite" time="35.570266735"></testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects a client request should support a client that connects, sends NO DATA, and disconnects" classname="Kubernetes e2e suite" time="97.467879208"></testcase>
+      <testcase name="[sig-api-machinery] Namespaces [Serial] should ensure that all pods are removed when a namespace is deleted." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Restart [Disruptive] should restart all nodes and ensure all nodes and pods recover" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with multiple PVs and PVCs all in same ns should create 2 PVs and 4 PVCs: test write access" classname="Kubernetes e2e suite" time="38.72571092"></testcase>
+  </testsuite>

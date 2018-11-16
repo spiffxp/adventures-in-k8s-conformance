@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="653.935691636">
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate configmap" classname="Kubernetes e2e suite" time="47.966475281"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 [Slow] Nginx should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] InitContainer should invoke init containers on a RestartAlways pod" classname="Kubernetes e2e suite" time="65.997577517"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes GCEPD should test that deleting a PVC before the pod does not cause pod deletion to fail on PD detach" classname="Kubernetes e2e suite" time="95.211783861"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support file as subpath" classname="Kubernetes e2e suite" time="107.500332396"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should provision storage with different parameters [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should scale down with Custom Metric of type Object from Stackdriver [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] rolling update backend pods should not cause service disruption" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should reject quota with invalid scopes" classname="Kubernetes e2e suite" time="18.973358013"></testcase>
+      <testcase name="[sig-storage] Projected should update labels on modification [Conformance]" classname="Kubernetes e2e suite" time="39.738999265"></testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should run Stackdriver Metadata Agent [Feature:StackdriverMetadataAgent]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates local ephemeral storage resource limits of pods that are allowed to run [Feature:LocalStorageCapacityIsolation]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should delete persistent volume when reclaimPolicy set to delete and associated claim is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default arguments (docker cmd)  [Conformance]" classname="Kubernetes e2e suite" time="21.253100219"></testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with the same volume source attach/detach to different worker nodes" classname="Kubernetes e2e suite" time="10.423167849">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and ensure its status is promptly calculated." classname="Kubernetes e2e suite" time="15.519681301"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings  [Conformance]" classname="Kubernetes e2e suite" time="16.337041152"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume [Conformance]" classname="Kubernetes e2e suite" time="23.396415542"></testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname as non-root with fsgroup and defaultMode [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume FStype [Feature:vsphere] verify invalid fstype" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified new files should be created with FSGroup ownership when container is root" classname="Kubernetes e2e suite" time="12.922825303"></testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should not delete the token secret when the secret is not expired" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Pod Disks detach in a disrupted environment [Slow] [Disruptive] when node&#39;s API object is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support existing single file" classname="Kubernetes e2e suite" time="20.395136122"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates resource limits of pods that are allowed to run  [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should adopt matching orphans and release non-matching pods" classname="Kubernetes e2e suite" time="56.369597974"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest events" classname="Kubernetes e2e suite" time="57.513155568"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should sync endpoints to NEG" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container should be restarted with a /healthz http liveness probe  [Conformance]" classname="Kubernetes e2e suite" time="33.182311841"></testcase>
+  </testsuite>

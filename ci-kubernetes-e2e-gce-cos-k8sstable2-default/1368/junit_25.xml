@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="686.627120773">
+      <testcase name="[sig-storage] Projected should be able to mount in a volume regardless of a different secret existing with same name in different namespace" classname="Kubernetes e2e suite" time="52.578569128"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0666,tmpfs) [Conformance]" classname="Kubernetes e2e suite" time="16.225389154"></testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas same zone [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with mappings [Conformance]" classname="Kubernetes e2e suite" time="26.711614056"></testcase>
+      <testcase name="[sig-apps] DaemonRestart [Disruptive] Kubelet should not restart containers across restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with mappings as non-root  [Conformance]" classname="Kubernetes e2e suite" time="22.157238451"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: gce-localssd-scsi-fs] [Serial] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should only target nodes with endpoints" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Deploy clustered applications [Feature:StatefulSet] [Slow] should creating a working mysql cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should create new node if there is no node for node selector [Feature:ClusterSizeAutoscalingScaleWithNAP]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Kibana Logging Instances Is Alive [Feature:Elasticsearch] should check that the Kibana logging instance is alive" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="12.669414575">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should cap back-off at MaxContainerBackOff [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should support cascading deletion of custom resources" classname="Kubernetes e2e suite" time="43.13055701"></testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] should be invisible to controllers by default" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support non-existent path" classname="Kubernetes e2e suite" time="17.710182211">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce multiple, stacked policies with overlapping podSelectors [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support existing single file" classname="Kubernetes e2e suite" time="54.271024787"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pods are pending due to pod anti-affinity [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should get a host IP  [Conformance]" classname="Kubernetes e2e suite" time="36.667496867"></testcase>
+      <testcase name="[k8s.io] Pods should contain environment variables for services  [Conformance]" classname="Kubernetes e2e suite" time="51.131545099"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0644,default) [Conformance]" classname="Kubernetes e2e suite" time="19.100170597"></testcase>
+      <testcase name="[sig-api-machinery] Namespaces [Serial] should ensure that all services are removed when a namespace is deleted." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support file as subpath" classname="Kubernetes e2e suite" time="33.6594535"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] shouldn&#39;t scale down with underutilized nodes due to host port conflicts [Feature:ClusterAutoscalerScalability5]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support existing directory" classname="Kubernetes e2e suite" time="29.207183872"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest system logs from all nodes [Feature:StackdriverLogging]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should provide basic identity" classname="Kubernetes e2e suite" time="258.76233802"></testcase>
+  </testsuite>

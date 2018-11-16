@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="643.570448716">
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0777,tmpfs) [Conformance]" classname="Kubernetes e2e suite" time="43.767973627"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by ordering unclean reboot and ensure they function upon restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume as non-root with defaultMode and fsGroup set [Conformance]" classname="Kubernetes e2e suite" time="13.535476366"></testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with downward pod" classname="Kubernetes e2e suite" time="26.33724441"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a persistent volume claim with a storage class. [sig-storage]" classname="Kubernetes e2e suite" time="20.194128859"></testcase>
+      <testcase name="[sig-network] Proxy version v1 should proxy logs on node using proxy subresource  [Conformance]" classname="Kubernetes e2e suite" time="14.553483234"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl apply should apply a new configuration to an existing RC" classname="Kubernetes e2e suite" time="29.621888586"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp default which is unconfined [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support existing directory" classname="Kubernetes e2e suite" time="27.853769239000002"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified volume on default medium should have the correct mode using FSGroup" classname="Kubernetes e2e suite" time="17.044363589"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp alpha unconfined annotation on the pod [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] Pods should return to running and ready state after network partition is healed All pods on the unreachable node should be marked as NotReady upon the node turn NotReady AND all pods should be mark back to Ready when the node get back to Ready before pod eviction timeout" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should delete jobs and pods created by cronjob" classname="Kubernetes e2e suite" time="39.577214275"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by ordering clean reboot and ensure they function upon restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="39.282024105"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] ReplicationController light Should scale from 2 pods to 1 pod" classname="Kubernetes e2e suite" time="149.810210646"></testcase>
+      <testcase name="[sig-cluster-lifecycle] ingress Upgrade [Feature:IngressUpgrade] ingress upgrade should maintain a functioning ingress" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that there is no conflict between pods with same hostPort but different hostIP and protocol" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should allow egress access on one named port [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a configMap." classname="Kubernetes e2e suite" time="19.568469687"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Stress with local volume provisioner [Serial] should use be able to process many pods and reuse local volumes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide node allocatable (cpu) as default cpu limit if the limit is not set  [Conformance]" classname="Kubernetes e2e suite" time="19.812939215"></testcase>
+      <testcase name="[sig-storage] Volume Placement test back to back pod creation and deletion with different volume sources on the same worker node" classname="Kubernetes e2e suite" time="12.518575699">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="144.11127105"></testcase>
+      <testcase name="[sig-storage] Pod Disks schedule pods each with a PD, delete pod and verify detach [Slow] for read-only PD with pod delete grace period of &#34;default (30s)&#34;" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide podname only [Conformance]" classname="Kubernetes e2e suite" time="15.224945517"></testcase>
+  </testsuite>

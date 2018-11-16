@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="17" failures="0" time="867.770784926">
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify if a SPBM policy is not honored on a non-compatible datastore for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicationController should release no longer matching pods" classname="Kubernetes e2e suite" time="15.411633404"></testcase>
+      <testcase name="[k8s.io] Sysctls [NodeFeature:Sysctls] should support unsafe sysctls which are actually whitelisted" classname="Kubernetes e2e suite" time="17.185714106"></testcase>
+      <testcase name="[k8s.io] Pods should be updated [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="38.320422603"></testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] A node shouldn&#39;t be able to create another node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] InitContainer [NodeConformance] should invoke init containers on a RestartAlways pod" classname="Kubernetes e2e suite" time="55.176282121"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support existing single file" classname="Kubernetes e2e suite" time="59.467258693"></testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide container&#39;s limits.cpu/memory and requests.cpu/memory as env vars [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.730819629"></testcase>
+      <testcase name="[sig-storage] Ephemeralstorage When pod refers to non-existent ephemeral storage should allow deletion of pod with invalid volume : secret" classname="Kubernetes e2e suite" time="44.145320934"></testcase>
+      <testcase name="[sig-apps] Deployment deployment should delete old replica sets" classname="Kubernetes e2e suite" time="22.387832974"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: blockfs] Set fsGroup for local volume should set different fsGroup for second pod if first pod is deleted" classname="Kubernetes e2e suite" time="71.959480461"></testcase>
+      <testcase name="[sig-storage] Downward API volume should provide node allocatable (memory) as default memory limit if the limit is not set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="14.341891781"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPreemption [Serial] validates lower priority pod preemption by critical pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should be able to switch session affinity for service with type clusterIP" classname="Kubernetes e2e suite" time="90.932912948"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="9.804251929">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes NFS should be mountable" classname="Kubernetes e2e suite" time="75.060768278"></testcase>
+      <testcase name="[k8s.io] Sysctls [NodeFeature:Sysctls] should reject invalid sysctls" classname="Kubernetes e2e suite" time="12.258122012"></testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas different zones [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicationController Should scale from 5 pods to 3 pods and from 3 to 1 and verify decision stability" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t scale down when non expendable pod is running [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support existing single file" classname="Kubernetes e2e suite" time="12.302473242">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link-bindmounted] Set fsGroup for local volume should not set different fsGroups for two pods simultaneously" classname="Kubernetes e2e suite" time="69.807444573"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type and ports of a service [Slow] [DisabledForLargeClusters]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide podname as non-root with fsgroup [NodeFeature:FSGroup]" classname="Kubernetes e2e suite" time="16.597169111"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link] Set fsGroup for local volume should set same fsGroup for two pods simultaneously" classname="Kubernetes e2e suite" time="64.011441172"></testcase>
+      <testcase name="[k8s.io] [sig-node] SSH should SSH to all nodes and run commands" classname="Kubernetes e2e suite" time="18.992223079"></testcase>
+      <testcase name="[sig-instrumentation] [Feature:PrometheusMonitoring] Prometheus should scrape metrics from annotated services." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with multiple volumes from different datastore" classname="Kubernetes e2e suite" time="14.547583316">
+          <skipped></skipped>
+      </testcase>
+  </testsuite>

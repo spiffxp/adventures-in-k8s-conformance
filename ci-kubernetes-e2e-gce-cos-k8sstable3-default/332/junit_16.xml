@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="604.440954997">
+      <testcase name="[sig-network] Networking Granular Checks: Pods should function for node-pod communication: http  [Conformance]" classname="Kubernetes e2e suite" time="75.908173882"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicaSet Should scale from 5 pods to 3 pods and from 3 to 1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should use the image defaults if command and args are blank  [Conformance]" classname="Kubernetes e2e suite" time="19.76282761"></testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] Getting a non-existent secret should exit with the Forbidden error, not a NotFound error" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support existing single file" classname="Kubernetes e2e suite" time="8.950831158">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] should scale down underutilized nodes [Feature:ClusterAutoscalerScalability4]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] [Serial] Volume metrics should create prometheus metrics for volume provisioning and attach/detach" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate custom resource" classname="Kubernetes e2e suite" time="31.696867461"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should correctly scale down after a node is not needed and one node is broken [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should remove from active list jobs that have been deleted" classname="Kubernetes e2e suite" time="29.661337352"></testcase>
+      <testcase name="[sig-storage] Projected updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="102.491064485"></testcase>
+      <testcase name="[sig-storage] Volumes iSCSI [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Servers with support for API chunking should return chunks of results for list calls" classname="Kubernetes e2e suite" time="33.502340048"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for node-Service: http" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir wrapper volumes should not cause race condition when used for configmaps [Serial] [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should provide secure master service  [Conformance]" classname="Kubernetes e2e suite" time="8.629984838"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan RS created by deployment when deleteOptions.OrphanDependents is true" classname="Kubernetes e2e suite" time="12.05775339"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should implement legacy replacement when the update strategy is OnDelete" classname="Kubernetes e2e suite" time="127.439084832"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify if a SPBM policy is not honored on a non-compatible datastore for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [Feature:ClusterSizeAutoscalingScaleUp] [Slow] Autoscaling [sig-autoscaling] Autoscaling a service from 1 pod and 3 nodes to 8 pods and &gt;=4 nodes takes less than 15 minutes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] shouldn&#39;t be able to scale down when rescheduling a pod is required, but pdb doesn&#39;t allow drain[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] ReplicaSet should adopt matching pods on creation and release no longer matching pods" classname="Kubernetes e2e suite" time="37.41805979"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should create new node if there is no node for node selector [Feature:ClusterSizeAutoscalingScaleWithNAP]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid diskStripes and objectSpaceReservation values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support port-forward" classname="Kubernetes e2e suite" time="26.919011011"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should autoscale with Custom Metrics from Stackdriver [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on localhost [k8s.io] that expects NO client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="42.894635992"></testcase>
+  </testsuite>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="19" failures="0" time="735.596882316">
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="44.014871904"></testcase>
+      <testcase name="[sig-network] Network should set TCP CLOSE_WAIT timeout" classname="Kubernetes e2e suite" time="29.075824511"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] EmptyDir wrapper volumes should not cause race condition when used for git_repo [Serial] [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment RollingUpdateDeployment should delete old pods and create new ones" classname="Kubernetes e2e suite" time="32.490852393"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Pods Extended [k8s.io] Pods Set QOS Class should be submitted and removed  [Conformance]" classname="Kubernetes e2e suite" time="28.866698923"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with defaultMode set [Conformance]" classname="Kubernetes e2e suite" time="21.140526607"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Liveness liveness pods should be automatically restarted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] HostPath should support subPath" classname="Kubernetes e2e suite" time="22.878365931"></testcase>
+      <testcase name="[sig-storage] Projected should provide podname as non-root with fsgroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl taint [Serial] should update the taint on a node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS should provide DNS for ExternalName services" classname="Kubernetes e2e suite" time="88.465632549"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0666,default) [Conformance]" classname="Kubernetes e2e suite" time="18.846887833"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume  [Conformance]" classname="Kubernetes e2e suite" time="15.882999746"></testcase>
+      <testcase name="[sig-network] Services should be able to change the type from ClusterIP to ExternalName" classname="Kubernetes e2e suite" time="28.397783653"></testcase>
+      <testcase name="[k8s.io] [sig-node] Events should be sent by kubelets and the scheduler about pods scheduling and running  [Conformance]" classname="Kubernetes e2e suite" time="38.149623485"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] master upgrade should maintain a functioning cluster [Feature:MasterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] EquivalenceCache [Serial] validates pod anti-affinity works properly when new replica pod is scheduled" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicaSet Should scale from 5 pods to 3 pods and from 3 to 1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide pod UID as env vars  [Conformance]" classname="Kubernetes e2e suite" time="23.38863128"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl expose should create services for rc  [Conformance]" classname="Kubernetes e2e suite" time="49.011067095"></testcase>
+      <testcase name="[sig-storage] Projected should provide node allocatable (cpu) as default cpu limit if the limit is not set [Conformance]" classname="Kubernetes e2e suite" time="25.642689978"></testcase>
+      <testcase name="[sig-storage] Ephemeralstorage When pod refers to non-existent ephemeral storage should allow deletion of pod with invalid volume : secret" classname="Kubernetes e2e suite" time="55.173728685"></testcase>
+      <testcase name="[sig-network] Services [Feature:GCEAlphaFeature][Slow] should be able to create and tear down a standard-tier load balancer [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] ConfigMap should be consumable via the environment  [Conformance]" classname="Kubernetes e2e suite" time="15.484177124"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [ReplicationController] should eagerly create replacement pod during network partition when termination grace is non-zero" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Namespaces [Serial] should delete fast enough (90 percent of 100 namespaces in 150 seconds)" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] stateful Upgrade [Feature:StatefulUpgrade] [k8s.io] stateful upgrade should maintain a functioning cluster" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Secrets should be consumable in multiple volumes in a pod  [Conformance]" classname="Kubernetes e2e suite" time="14.757471268"></testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] don&#39;t cause replicaset controller creating extra pods if the initializer is not handled [Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="57.528515513"></testcase>
+      <testcase name="[sig-storage] Projected optional updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="113.54999627"></testcase>
+  </testsuite>

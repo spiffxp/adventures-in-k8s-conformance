@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="588.119585699">
+      <testcase name="[sig-api-machinery] Secrets should be consumable via the environment  [Conformance]" classname="Kubernetes e2e suite" time="20.578284298"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should update nodePort: udp [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Kibana Logging Instances Is Alive [Feature:Elasticsearch] should check that the Kibana logging instance is alive" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should be able to scale down when rescheduling a pod is required and pdb allows for it[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should adopt matching orphans and release non-matching pods" classname="Kubernetes e2e suite" time="80.761613591"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that deleting the PV before the pod does not cause pod deletion to fail on vspehre volume detach" classname="Kubernetes e2e suite" time="9.395180827">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="9.036015524">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] HA-master [Feature:HAMaster] survive addition/removal replicas same zone [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Mount propagation [Feature:MountPropagation] should propagate mounts to the host" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should not delete the token secret when the secret is not expired" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Job should run a job to completion when tasks sometimes fail and are locally restarted" classname="Kubernetes e2e suite" time="22.143281736"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified new files should be created with FSGroup ownership when container is root" classname="Kubernetes e2e suite" time="17.266119722"></testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with the same volume source attach/detach to different worker nodes" classname="Kubernetes e2e suite" time="8.953142932">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run job should create a job from an image when restart is OnFailure  [Conformance]" classname="Kubernetes e2e suite" time="29.813646034"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should support exec through an HTTP proxy" classname="Kubernetes e2e suite" time="28.312066005"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Downward API should create a pod that prints his name and namespace" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 50 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates local ephemeral storage resource limits of pods that are allowed to run [Feature:LocalStorageCapacityIsolation]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Liveness liveness pods should be automatically restarted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for node-Service: udp" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should not be blocked by dependency circle" classname="Kubernetes e2e suite" time="14.394347769"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should not detach and unmount PV when associated pvc with delete as reclaimPolicy is deleted when it is in use by the pod" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should mutate pod and apply defaults after mutation" classname="Kubernetes e2e suite" time="49.304083194"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Pods should function for intra-pod communication: http  [Conformance]" classname="Kubernetes e2e suite" time="60.719007697"></testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] Getting an existent secret should exit with the Forbidden error" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes GlusterFS should be mountable" classname="Kubernetes e2e suite" time="61.597049507"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 2 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Secrets should be consumable from pods in volume as non-root with defaultMode and fsGroup set  [Conformance]" classname="Kubernetes e2e suite" time="17.232394303"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support existing directory" classname="Kubernetes e2e suite" time="51.913007832"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that there exists conflict between pods with same hostPort and protocol but one using 0.0.0.0 hostIP" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl expose should create services for rc  [Conformance]" classname="Kubernetes e2e suite" time="41.740131343"></testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname as non-root with fsgroup [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should retain persistent volume when reclaimPolicy set to retain when associated claim is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] DNS configMap federations should be able to change federation configuration [Slow][Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp default which is unconfined [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] InitContainer should not start app containers and fail the pod if init containers fail on a RestartNever pod" classname="Kubernetes e2e suite" time="16.649526862"></testcase>
+  </testsuite>

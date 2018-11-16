@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="865.325625262">
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by dropping all inbound packets for a while and ensure they function afterwards" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should be able to change the type from NodePort to ExternalName" classname="Kubernetes e2e suite" time="11.241933398"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Secret should create a pod that reads a secret" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide container&#39;s memory limit [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="22.809943432"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should not provision a volume in an unmanaged GCE zone." classname="Kubernetes e2e suite" time="98.313166864"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="25.394605147"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Local volume provisioner [Serial] should create and recreate local persistent volume" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] AppArmor load AppArmor profiles can disable an AppArmor profile, using unconfined" classname="Kubernetes e2e suite" time="42.976529891"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes Default StorageClass pods that use multiple volumes should be reschedulable" classname="Kubernetes e2e suite" time="183.796398692"></testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with the same volume source attach/detach to different worker nodes" classname="Kubernetes e2e suite" time="9.792740662">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] [Serial] Volume metrics PVController should create unbound pvc count metrics for pvc controller after creating pvc only" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid diskStripes and objectSpaceReservation values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing directory" classname="Kubernetes e2e suite" time="18.621059522"></testcase>
+      <testcase name="[k8s.io] Sysctls [NodeFeature:Sysctls] should not launch unsafe, but not explicitly enabled sysctls on the node" classname="Kubernetes e2e suite" time="13.84245143"></testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should rollback without unnecessary restarts [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Proxy server should support --unix-socket=/path  [Conformance]" classname="Kubernetes e2e suite" time="10.920335949"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work for type=LoadBalancer" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should create endpoints for unready pods" classname="Kubernetes e2e suite" time="302.566825458"></testcase>
+  </testsuite>

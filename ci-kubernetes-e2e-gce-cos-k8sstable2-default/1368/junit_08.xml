@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="685.159748638">
+      <testcase name="[k8s.io] Variable Expansion should allow substituting values in a container&#39;s args  [Conformance]" classname="Kubernetes e2e suite" time="46.389960547"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if subpath with backstepping is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with defaultMode set  [Conformance]" classname="Kubernetes e2e suite" time="20.125613777"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support existing single file" classname="Kubernetes e2e suite" time="63.430671308"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a service." classname="Kubernetes e2e suite" time="17.195724931"></testcase>
+      <testcase name="[sig-network] Services should preserve source pod IP for traffic thru service cluster IP" classname="Kubernetes e2e suite" time="102.80774321"></testcase>
+      <testcase name="[sig-storage] Volumes ConfigMap should be mountable" classname="Kubernetes e2e suite" time="30.863671932"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should correctly scale down after a node is not needed when there is non autoscaled pool[Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Pods should be submitted and removed  [Conformance]" classname="Kubernetes e2e suite" time="49.454468444"></testcase>
+      <testcase name="[k8s.io] Pods should allow activeDeadlineSeconds to be updated  [Conformance]" classname="Kubernetes e2e suite" time="22.061573714"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should provision storage with mount options" classname="Kubernetes e2e suite" time="83.17497405"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that NodeAffinity is respected if not matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl Port forwarding [k8s.io] With a server listening on 0.0.0.0 [k8s.io] that expects NO client request should support a client that connects, sends DATA, and disconnects" classname="Kubernetes e2e suite" time="148.44985741"></testcase>
+      <testcase name="[sig-network] Networking should provide Internet connection for containers [Feature:Networking-IPv4]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should release NodePorts on delete" classname="Kubernetes e2e suite" time="18.185980928"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes GCEPD should test that deleting the Namespace of a PVC and Pod causes the successful detach of Persistent Disk" classname="Kubernetes e2e suite" time="71.948116406"></testcase>
+  </testsuite>

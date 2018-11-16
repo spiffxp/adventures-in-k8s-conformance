@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="698.266594239">
+      <testcase name="[k8s.io] KubeletManagedEtcHosts should test kubelet managed /etc/hosts file  [Conformance]" classname="Kubernetes e2e suite" time="82.327127043"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should create ingress with pre-shared certificate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid diskStripes and objectSpaceReservation values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] Nodes [Disruptive] Resize [Slow] should be able to add nodes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should resign the bootstrap tokens when the clusterInfo ConfigMap updated [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] [Feature:NodeAuthorizer] Getting a non-existent secret should exit with the Forbidden error, not a NotFound error" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volume Provisioning On Clustered Datastore [Feature:vsphere] verify static provisioning on clustered datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should update annotations on modification [Conformance]" classname="Kubernetes e2e suite" time="42.414926647"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes[Disruptive][Flaky] when kubelet restarts Should test that a volume mounted to a pod that is force deleted while the kubelet is down unmounts when the kubelet returns." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: CPU) [sig-autoscaling] [Serial] [Slow] ReplicationController Should scale from 5 pods to 3 pods and from 3 to 1 and verify decision stability" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Initializers [Feature:Initializers] should dynamically register and apply initializers to pods [Serial]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default command and arguments  [Conformance]" classname="Kubernetes e2e suite" time="17.21533768"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a persistent volume claim. [sig-storage]" classname="Kubernetes e2e suite" time="17.115495548"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Reboot [Disruptive] [Feature:Reboot] each node by dropping all inbound packets for a while and ensure they function afterwards" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should create a quota without scopes" classname="Kubernetes e2e suite" time="11.710469768"></testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] should scale up twice [Feature:ClusterAutoscalerScalability2]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] HostPath should support existing single file subPath" classname="Kubernetes e2e suite" time="25.831274702"></testcase>
+      <testcase name="[sig-network] Firewall rule should have correct firewall rules for e2e cluster" classname="Kubernetes e2e suite" time="18.816971319"></testcase>
+      <testcase name="[sig-apps] DisruptionController should create a PodDisruptionBudget" classname="Kubernetes e2e suite" time="13.000422911"></testcase>
+      <testcase name="[sig-cluster-lifecycle] gpu Upgrade [Feature:GPUUpgrade] cluster upgrade should be able to run gpu pod after upgrade [Feature:GPUClusterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Update Demo should scale a replication controller  [Conformance]" classname="Kubernetes e2e suite" time="69.326124027"></testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should update endpoints: http" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with configmap pod with mountPath of existing file" classname="Kubernetes e2e suite" time="35.88480194"></testcase>
+      <testcase name="[sig-apps] Daemon set [Serial] should run and stop complex daemon with node affinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Pod with node different from PV&#39;s NodeAffinity should fail scheduling due to different NodeSelector" classname="Kubernetes e2e suite" time="29.868485997"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should add new node and new node pool on too big pod, scale down to 1 and scale down to 0 [Feature:ClusterSizeAutoscalingScaleWithNAP]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should not delete dependents that have both valid owner and owner that&#39;s waiting for dependents to be deleted [Conformance]" classname="Kubernetes e2e suite" time="23.263265838"></testcase>
+      <testcase name="[sig-storage] Secrets optional updates should be reflected in volume  [Conformance]" classname="Kubernetes e2e suite" time="124.769920863"></testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work from pods" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] should be mountable when attachable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning DynamicProvisioner should provision storage with non-default reclaim policy Retain" classname="Kubernetes e2e suite" time="54.252989011"></testcase>
+      <testcase name="[sig-storage] Node Unregister [Feature:vsphere] [Slow] [Disruptive] node unregister" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:Ingress] should create ingress with given static-ip" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Scaling should happen in predictable order and halt if any stateful pod is unhealthy [Conformance]" classname="Kubernetes e2e suite" time="121.843106884"></testcase>
+  </testsuite>

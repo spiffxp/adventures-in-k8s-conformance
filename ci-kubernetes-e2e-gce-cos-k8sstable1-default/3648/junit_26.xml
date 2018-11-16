@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="870.932967522">
+      <testcase name="[sig-api-machinery] Secrets should be consumable from pods in env vars [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="23.147091907"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (root,0644,default) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.602864141"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Pod with node different from PV&#39;s NodeAffinity should fail scheduling due to different NodeSelector" classname="Kubernetes e2e suite" time="34.835471957"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="55.791406178"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support existing directory" classname="Kubernetes e2e suite" time="29.175570909"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="39.445935996"></testcase>
+      <testcase name="[sig-storage] Volume Placement should create and delete pod with multiple volumes from same datastore" classname="Kubernetes e2e suite" time="9.858435044">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] Multi-AZ Cluster Volumes [sig-storage] should schedule pods in the same zones as statically provisioned PVs" classname="Kubernetes e2e suite" time="11.584449183">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Local volume that cannot be mounted [Slow] should fail due to wrong node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl create quota should create a quota with scopes" classname="Kubernetes e2e suite" time="9.86086526"></testcase>
+      <testcase name="[k8s.io] Probing container should *not* be restarted with a exec &#34;cat /tmp/health&#34; liveness probe [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="258.423620982"></testcase>
+      <testcase name="[sig-storage] Projected should update annotations on modification [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="46.639461516"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: blockfs] Set fsGroup for local volume should not set different fsGroups for two pods simultaneously" classname="Kubernetes e2e suite" time="64.551498824"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest system logs from all nodes [Feature:StackdriverLogging]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should delete jobs and pods created by cronjob" classname="Kubernetes e2e suite" time="36.613086595"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support existing directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="107.555355325"></testcase>
+  </testsuite>

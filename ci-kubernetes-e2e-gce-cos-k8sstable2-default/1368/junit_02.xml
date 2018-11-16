@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="675.112773658">
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified nonexistent volume subPath should have the correct mode and owner using FSGroup" classname="Kubernetes e2e suite" time="45.715915068"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support existing directory" classname="Kubernetes e2e suite" time="69.946147318"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] RethinkDB should create and stop rethinkdb servers" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] PreStop should call prestop when killing a pod  [Conformance]" classname="Kubernetes e2e suite" time="69.806317467"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should correctly scale down after a node is not needed [Feature:ClusterSizeAutoscalingScaleDown]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Secrets should be consumable from pods in volume  [Conformance]" classname="Kubernetes e2e suite" time="16.696854395"></testcase>
+      <testcase name="[sig-storage] Projected should provide podname as non-root with fsgroup and defaultMode [Feature:FSGroup]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking IPerf IPv6 [Experimental] [Feature:Networking-IPv6] [Slow] [Feature:Networking-Performance] should transfer ~ 1GB onto the service endpoint 1 servers (maximum of 1 clients)" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run deployment should create a deployment from an image  [Conformance]" classname="Kubernetes e2e suite" time="15.194016973"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="45.09178323"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="29.374810051"></testcase>
+      <testcase name="[sig-network] DNS should provide DNS for pods for Hostname and Subdomain" classname="Kubernetes e2e suite" time="42.456341749"></testcase>
+      <testcase name="[sig-apps] Job should exceed backoffLimit" classname="Kubernetes e2e suite" time="28.95287777"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {batch Job} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes NFS with Single PV - PVC pairs should create a non-pre-bound PV and PVC: test write access " classname="Kubernetes e2e suite" time="58.518299335"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  Pod with node different from PV&#39;s NodeAffinity should fail scheduling due to different NodeAffinity" classname="Kubernetes e2e suite" time="34.941326664"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cluster-lifecycle] gpu Upgrade [Feature:GPUUpgrade] cluster downgrade should be able to run gpu pod after downgrade [Feature:GPUClusterDowngrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should perform canary updates and phased rolling updates of template modifications [Conformance]" classname="Kubernetes e2e suite" time="117.336209963"></testcase>
+      <testcase name="[sig-api-machinery] Generated clientset should create pods, set the deletionTimestamp and deletionGracePeriodSeconds of the pod" classname="Kubernetes e2e suite" time="16.923102672"></testcase>
+      <testcase name="[sig-apps] CronJob should remove from active list jobs that have been deleted" classname="Kubernetes e2e suite" time="73.092144048"></testcase>
+  </testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="659.978259335">
+      <testcase name="[sig-network] Proxy version v1 should proxy to cadvisor" classname="Kubernetes e2e suite" time="12.590583551"></testcase>
+      <testcase name="[sig-network] Networking should provide unchanging, static URL paths for kubernetes api services" classname="Kubernetes e2e suite" time="9.305585843"></testcase>
+      <testcase name="[k8s.io] Pods should support remote command execution over websockets" classname="Kubernetes e2e suite" time="55.915175491"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should not deadlock when a pod&#39;s predecessor fails" classname="Kubernetes e2e suite" time="145.144297306"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: gce-localssd-scsi-fs] when pod&#39;s node is different from PV&#39;s NodeAffinity should not be able to mount due to different NodeAffinity" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest system logs from all nodes [Feature:StackdriverLogging]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: dir] when two pods mount a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="26.634148393"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a secret." classname="Kubernetes e2e suite" time="23.061212461"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] [Volume type: gce-localssd-scsi-fs] when two pods mount a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Probing container with readiness probe should not be ready before initial delay and never restart  [Conformance]" classname="Kubernetes e2e suite" time="47.268082669"></testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should work for type=LoadBalancer" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] GCP Volumes GlusterFS should be mountable" classname="Kubernetes e2e suite" time="78.129729016"></testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support pod.Spec.SecurityContext.RunAsUser" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] ConfigMap should be consumable via environment variable  [Conformance]" classname="Kubernetes e2e suite" time="17.485273172"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing directory" classname="Kubernetes e2e suite" time="18.280851411"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support readOnly directory specified in the volumeMount" classname="Kubernetes e2e suite" time="66.000047815"></testcase>
+      <testcase name="[sig-storage] Projected optional updates should be reflected in volume [Conformance]" classname="Kubernetes e2e suite" time="113.188109742"></testcase>
+  </testsuite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="634.213578913">
+      <testcase name="[sig-storage] EmptyDir volumes when FSGroup is specified nonexistent volume subPath should have the correct mode and owner using FSGroup" classname="Kubernetes e2e suite" time="21.77971174"></testcase>
+      <testcase name="[sig-apps] CronJob should not schedule jobs when suspended [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Network Partition [Disruptive] [Slow] [k8s.io] [StatefulSet] should come back up if node goes down [Slow] [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Kubelet [Serial] [Slow] [k8s.io] [sig-node] regular resource usage tracking resource tracking for 0 pods per node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local [Feature:LocalPersistentVolumes] [Serial] when one pod requests one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide node allocatable (memory) as default memory limit if the limit is not set [Conformance]" classname="Kubernetes e2e suite" time="13.097374462"></testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] [Feature:FlexVolume] should install plugin without kubelet restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Services should be able to up and down services" classname="Kubernetes e2e suite" time="129.330205867"></testcase>
+      <testcase name="[sig-network] ClusterDns [Feature:Example] should create pod that uses dns" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a service." classname="Kubernetes e2e suite" time="15.60311668"></testcase>
+      <testcase name="[sig-storage] Volume Provisioning On Clustered Datastore [Feature:vsphere] verify static provisioning on clustered datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run default should create an rc or deployment from an image  [Conformance]" classname="Kubernetes e2e suite" time="13.049285155"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support file as subpath" classname="Kubernetes e2e suite" time="47.527759711"></testcase>
+      <testcase name="[sig-storage] Secrets optional updates should be reflected in volume  [Conformance]" classname="Kubernetes e2e suite" time="107.496526953"></testcase>
+      <testcase name="[sig-network] DNS should provide DNS for ExternalName services" classname="Kubernetes e2e suite" time="73.388984601"></testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: no PDB =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="24.599008056"></testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] RethinkDB should create and stop rethinkdb servers" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should delete successful finished jobs with limit of one successful job" classname="Kubernetes e2e suite" time="141.009674448"></testcase>
+  </testsuite>

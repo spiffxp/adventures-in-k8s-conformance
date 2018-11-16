@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="16" failures="0" time="875.367451785">
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume as non-root with defaultMode and fsGroup set [NodeFeature:FSGroup]" classname="Kubernetes e2e suite" time="14.618558709"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should support existing single file" classname="Kubernetes e2e suite" time="49.947830124"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should support cascading deletion of custom resources" classname="Kubernetes e2e suite" time="62.968081291"></testcase>
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify VSAN storage capability with valid hostFailuresToTolerate and cacheReservation values is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes GCEPD should test that deleting the Namespace of a PVC and Pod causes the successful detach of Persistent Disk" classname="Kubernetes e2e suite" time="52.257835179"></testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname only [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.752742495"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] Should recreate evicted statefulset [Conformance]" classname="Kubernetes e2e suite" time="57.078057151"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run deployment should create a deployment from an image  [Conformance]" classname="Kubernetes e2e suite" time="30.358738657"></testcase>
+      <testcase name="[sig-storage] Dynamic Provisioning Block volume provisioning [Feature:BlockVolume] should create and delete block persistent volumes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a secret." classname="Kubernetes e2e suite" time="24.222058744"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] master upgrade should maintain a functioning cluster [Feature:MasterUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Watchers should observe an object deletion if it stops meeting the requirements of the selector [Conformance]" classname="Kubernetes e2e suite" time="23.66156532"></testcase>
+      <testcase name="[sig-api-machinery] ConfigMap should be consumable via environment variable [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="22.22826639"></testcase>
+      <testcase name="[sig-storage] Node Poweroff [Feature:vsphere] [Slow] [Disruptive] verify volume status after node power off" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable in multiple volumes in the same pod [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="27.068691869"></testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that NodeSelector is respected if not matching  [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected updates should be reflected in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="121.559464253"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support existing directory" classname="Kubernetes e2e suite" time="40.965435307999996"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 [Slow] Nginx should conform to Ingress spec" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: enough pods, replicaSet, percentage =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="88.971792298"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] Set fsGroup for local volume should set same fsGroup for two pods simultaneously" classname="Kubernetes e2e suite" time="58.334553683"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="30.235813696">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should set mode on item file [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="24.602042225"></testcase>
+  </testsuite>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="17" failures="0" time="945.338372448">
+      <testcase name="[k8s.io] Pods should be submitted and removed [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="53.439483313"></testcase>
+      <testcase name="[sig-storage] Volume Provisioning On Clustered Datastore [Feature:vsphere] verify dynamic provision with default parameter on clustered datastore" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Variable Expansion should fail substituting values in a volume subpath with absolute path [Feature:VolumeSubpathEnvExpansion][NodeAlphaFeature:VolumeSubpathEnvExpansion][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Stackdriver Monitoring should have accelerator metrics [Feature:StackdriverAcceleratorMonitoring]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Kubelet [Serial] [Slow] [k8s.io] [sig-node] experimental resource usage tracking [Feature:ExperimentalResourceUsageTracking] resource tracking for 100 pods per node" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] AdmissionWebhook Should not be able to prevent deleting validating-webhook-configurations or mutating-webhook-configurations" classname="Kubernetes e2e suite" time="75.605161967"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should support existing single file" classname="Kubernetes e2e suite" time="17.280570562"></testcase>
+      <testcase name="[sig-storage] Subpath Atomic writer volumes should support subpaths with secret pod" classname="Kubernetes e2e suite" time="27.080751299"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if subpath directory is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap binary data should be reflected in volume [NodeConformance]" classname="Kubernetes e2e suite" time="35.951828498"></testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide default limits.cpu/memory from node allocatable [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="20.86564945"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support readOnly file specified in the volumeMount" classname="Kubernetes e2e suite" time="65.1725588"></testcase>
+      <testcase name="[sig-storage] Volume Attach Verify [Feature:vsphere][Serial][Disruptive] verify volume remains attached after master kubelet restart" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPriorities [Serial] Pod should perfer to scheduled to nodes pod can tolerate" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.880966283"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0666,default) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="30.852058012"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pending pods are small [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run CronJob should create a CronJob" classname="Kubernetes e2e suite" time="12.690687955"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should support non-existent path" classname="Kubernetes e2e suite" time="17.331063956"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should fail if non-existent subpath is outside the volume [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Ephemeralstorage When pod refers to non-existent ephemeral storage should allow deletion of pod with invalid volume : projected" classname="Kubernetes e2e suite" time="47.895150932"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support file as subpath" classname="Kubernetes e2e suite" time="68.650400128"></testcase>
+      <testcase name="[sig-cluster-lifecycle] Upgrade [Feature:Upgrade] node upgrade should maintain a functioning cluster [Feature:NodeUpgrade]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPartitioned] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PV Protection Verify that PV bound to a PVC is not removed immediately" classname="Kubernetes e2e suite" time="15.962401817"></testcase>
+      <testcase name="[sig-apps] ReplicaSet should serve a basic image on each replica with a private image" classname="Kubernetes e2e suite" time="25.334887342"></testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume with defaultMode set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="14.383724538"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should provide basic identity" classname="Kubernetes e2e suite" time="271.052380786"></testcase>
+  </testsuite>

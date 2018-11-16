@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="14" failures="0" time="893.587100561">
+      <testcase name="[sig-cli] Kubectl alpha client [k8s.io] Kubectl run CronJob should create a CronJob" classname="Kubernetes e2e suite" time="15.018467925"></testcase>
+      <testcase name="[sig-api-machinery] Garbage collector should orphan pods created by rc if delete options say so [Conformance]" classname="Kubernetes e2e suite" time="54.676231629"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should support restarting containers using directory as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] NFSPersistentVolumes[Disruptive][Flaky] when kube-controller-manager restarts should delete a bound PVC from a clientPod, restart the kube-control-manager, and ensure the kube-controller-manager does not crash" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: too few pods, absolute =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="110.957527988"></testcase>
+      <testcase name="[sig-cluster-lifecycle] [Feature:BootstrapTokens] should resign the bootstrap tokens when the clusterInfo ConfigMap updated [Serial][Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] PreStop should call prestop when killing a pod  [Conformance]" classname="Kubernetes e2e suite" time="79.639941183"></testcase>
+      <testcase name="[sig-storage] EmptyDir volumes should support (non-root,0777,tmpfs) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.420532276"></testcase>
+      <testcase name="[k8s.io] Pods should allow activeDeadlineSeconds to be updated [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="33.60358371"></testcase>
+      <testcase name="[sig-api-machinery] Servers with support for API chunking should return chunks of results for list calls" classname="Kubernetes e2e suite" time="39.227560492"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gluster] should support file as subpath" classname="Kubernetes e2e suite" time="56.017015797"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfs] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support creating multiple subpath from same volumes [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should unmount if pod is force deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp alpha unconfined annotation on the pod [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should function for endpoint-Service: udp" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Flexvolumes [Disruptive] should be mountable when non-attachable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should be consumable from pods in volume [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="18.412663465"></testcase>
+      <testcase name="[sig-storage] NFSPersistentVolumes[Disruptive][Flaky] when kubelet restarts Should test that a volume mounted to a pod that is deleted while the kubelet is down unmounts when the kubelet returns." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scalability] Density [Feature:ManualPerformance] should allow starting 30 pods per node using {extensions Deployment} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes iSCSI [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] SchedulerPredicates [Serial] validates that taints-tolerations is respected if not matching" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] Deployment RollingUpdateDeployment should delete old pods and create new ones" classname="Kubernetes e2e suite" time="27.837058827"></testcase>
+      <testcase name="[sig-storage] Volumes PD should be mountable with ext3" classname="Kubernetes e2e suite" time="75.985467807"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: tmpfs] Two pods mounting a local volume one after the other should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="71.47804561"></testcase>
+      <testcase name="[sig-scalability] Load capacity [Feature:ManualPerformance] should be able to handle 30 pods per node { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons with quotas" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Downward API volume should provide podname as non-root with fsgroup and defaultMode [NodeFeature:FSGroup]" classname="Kubernetes e2e suite" time="21.648142748"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes:vsphere should test that a vspehre volume mounted to a pod that is deleted while the kubelet is down unmounts when the kubelet returns [Disruptive]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should perform canary updates and phased rolling updates of template modifications [Conformance]" classname="Kubernetes e2e suite" time="145.655075576"></testcase>
+  </testsuite>

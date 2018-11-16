@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="15" failures="0" time="875.690256323">
+      <testcase name="[sig-storage] Storage Policy Based Volume Provisioning [Feature:vsphere] verify an existing and compatible SPBM policy is honored for dynamically provisioned pvc using storageclass" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: tmpfs] Set fsGroup for local volume should not set different fsGroups for two pods simultaneously" classname="Kubernetes e2e suite" time="64.676541758"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: gcePDPVC] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="104.90074769"></testcase>
+      <testcase name="[sig-apps] ReplicationController should adopt matching pods on creation" classname="Kubernetes e2e suite" time="33.867639947"></testcase>
+      <testcase name="[k8s.io] Pods should get a host IP [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="34.270753016"></testcase>
+      <testcase name="[sig-apps] Deployment RecreateDeployment should delete old pods and create new ones" classname="Kubernetes e2e suite" time="15.038787928"></testcase>
+      <testcase name="[sig-instrumentation] Cluster level logging implemented by Stackdriver should ingest events" classname="Kubernetes e2e suite" time="90.125522457"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should create a ResourceQuota and capture the life of a configMap." classname="Kubernetes e2e suite" time="16.935818893"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes [Feature:ReclaimPolicy] [sig-storage] persistentvolumereclaim:vsphere should delete persistent volume when reclaimPolicy set to delete and associated claim is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: emptyDir] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Pods Extended [k8s.io] Delete Grace Period should be submitted and removed  [Flaky] [Conformance]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-scheduling] LimitRange should create a LimitRange with defaults and ensure pod has those defaults applied." classname="Kubernetes e2e suite" time="34.19310778"></testcase>
+      <testcase name="[sig-scalability] Density [Feature:HighDensityPerformance] should allow starting 95 pods per node using { ReplicationController} with 0 secrets, 0 configmaps and 0 daemons" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Security Context [Feature:SecurityContext] should support seccomp default which is unconfined [Feature:Seccomp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes Azure Disk [Feature:Volumes] should be mountable [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-instrumentation] Kibana Logging Instances Is Alive [Feature:Elasticsearch] should check that the Kibana logging instance is alive" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="61.786424272"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should sync endpoints to NEG" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Mount propagation should propagate mounts to the host" classname="Kubernetes e2e suite" time="121.922784839"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPathSymlink] should unmount if pod is gracefully deleted while kubelet is down [Disruptive][Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-network] Networking Granular Checks: Services [Slow] should update nodePort: udp [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should scale up GPU pool from 0 [GpuType:nvidia-tesla-k80] [Feature:ClusterSizeAutoscalingGpu]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl label should update the label on a resource  [Conformance]" classname="Kubernetes e2e suite" time="14.898092751"></testcase>
+      <testcase name="[sig-network] Loadbalancing: L7 GCE [Slow] [Feature:NEG] should be able to switch between IG and NEG modes" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [sig-node] Pods Extended [k8s.io] Pods Set QOS Class should be submitted and removed  [Conformance]" classname="Kubernetes e2e suite" time="32.988908253"></testcase>
+      <testcase name="[sig-scheduling] ResourceQuota should verify ResourceQuota with terminating scopes." classname="Kubernetes e2e suite" time="32.593098284"></testcase>
+      <testcase name="[sig-storage] HostPath should support subPath [NodeConformance]" classname="Kubernetes e2e suite" time="14.732119791"></testcase>
+      <testcase name="[k8s.io] KubeletManagedEtcHosts should test kubelet managed /etc/hosts file [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="76.234379734"></testcase>
+  </testsuite>

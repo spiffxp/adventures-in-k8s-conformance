@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="12" failures="0" time="876.008184348">
+      <testcase name="[k8s.io] InitContainer [NodeConformance] should not start app containers if init containers fail on a RestartAlways pod" classname="Kubernetes e2e suite" time="80.775276601"></testcase>
+      <testcase name="[sig-api-machinery] Namespaces [Serial] should ensure that all pods are removed when a namespace is deleted." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] Cluster size autoscaler scalability [Slow] should scale up at all [Feature:ClusterAutoscalerScalability1]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: block] [Feature:BlockVolume] Set fsGroup for local volume should set different fsGroup for second pod if first pod is deleted" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Aggregator Should be able to support the 1.7 Sample API Server using the current Aggregator" classname="Kubernetes e2e suite" time="53.234729736"></testcase>
+      <testcase name="[sig-network] NetworkPolicy NetworkPolicy between server and client should enforce policy based on Ports [Feature:NetworkPolicy]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Projected should provide container&#39;s cpu limit [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="12.524220114"></testcase>
+      <testcase name="[sig-network] ESIPP [Slow] [DisabledForLargeClusters] should only target nodes with endpoints" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] Downward API should provide host IP as an env var [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="14.761878595"></testcase>
+      <testcase name="[sig-apps] Deployment test Deployment ReplicaSet orphaning and adoption regarding controllerRef" classname="Kubernetes e2e suite" time="24.033055565"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-link] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="54.04875412"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Kubectl run job should create a job from an image when restart is OnFailure  [Conformance]" classname="Kubernetes e2e suite" time="10.868124971"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Guestbook application should create and stop a working application  [Conformance]" classname="Kubernetes e2e suite" time="104.505573489"></testcase>
+      <testcase name="[sig-cli] Kubectl client [k8s.io] Simple pod should return command exit codes" classname="Kubernetes e2e suite" time="130.673196281"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: hostPath] should fail for new directories when readOnly specified in the volumeSource" classname="Kubernetes e2e suite" time="15.235011304">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-api-machinery] CustomResourceDefinition resources Simple CustomResourceDefinition creating/deleting custom resource definition objects works  [Conformance]" classname="Kubernetes e2e suite" time="9.840056427"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should increase cluster size if pods are pending due to pod anti-affinity [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: too few pods, replicaSet, percentage =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="121.074088414"></testcase>
+      <testcase name="[sig-autoscaling] [HPA] Horizontal pod autoscaling (scale resource: Custom Metrics from Stackdriver) should scale down with Custom Metric of type Pod from Stackdriver [Feature:CustomMetricsAutoscaling]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] should add node to the particular mig [Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: maxUnavailable deny evictions, integer =&gt; should not allow an eviction" classname="Kubernetes e2e suite" time="119.186899427"></testcase>
+  </testsuite>

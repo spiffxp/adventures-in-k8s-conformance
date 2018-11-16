@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite tests="10" failures="0" time="866.36715159">
+      <testcase name="[sig-network] Services [Feature:GCEAlphaFeature][Slow] should be able to create and tear down a standard-tier load balancer [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-auth] PodSecurityPolicy should enforce the restricted policy.PodSecurityPolicy" classname="Kubernetes e2e suite" time="39.053252737"></testcase>
+      <testcase name="[sig-apps] StatefulSet [k8s.io] Basic StatefulSet functionality [StatefulSetBasic] should perform rolling updates and roll backs of template modifications [Conformance]" classname="Kubernetes e2e suite" time="190.632428482"></testcase>
+      <testcase name="[sig-storage] NFSPersistentVolumes[Disruptive][Flaky] when kubelet restarts Should test that a volume mounted to a pod that is force deleted while the kubelet is down unmounts when the kubelet returns." classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] [Feature:Example] [k8s.io] Redis should create and stop redis servers" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: enough pods, absolute =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="79.33191761"></testcase>
+      <testcase name="[k8s.io] Docker Containers should be able to override the image&#39;s default arguments (docker cmd) [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="27.681963122"></testcase>
+      <testcase name="[sig-instrumentation] [Feature:PrometheusMonitoring] Prometheus should successfully scrape all targets" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] DisruptionController evictions: maxUnavailable allow single eviction, percentage =&gt; should allow an eviction" classname="Kubernetes e2e suite" time="95.509543728"></testcase>
+      <testcase name="[sig-storage] ConfigMap should be consumable from pods in volume with defaultMode set [NodeConformance] [Conformance]" classname="Kubernetes e2e suite" time="16.300692311"></testcase>
+      <testcase name="[sig-autoscaling] Cluster size autoscaling [Slow] Should be able to scale a node group up from 0[Feature:ClusterSizeAutoscalingScaleUp]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] Volumes vsphere [Feature:Volumes] should be mountable" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[k8s.io] InitContainer [NodeConformance] should not start app containers and fail the pod if init containers fail on a RestartNever pod" classname="Kubernetes e2e suite" time="15.271883875"></testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: tmpfs] One pod requesting one prebound PVC should be able to mount volume and write from pod1" classname="Kubernetes e2e suite" time="47.435272015"></testcase>
+      <testcase name="[sig-storage] Subpath [Volume type: nfsPVC] should support restarting containers using file as subpath [Slow]" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: gce-localssd-scsi-fs] [Serial] Two pods mounting a local volume at the same time should be able to write from pod1 and read from pod2" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-apps] CronJob should schedule multiple jobs concurrently" classname="Kubernetes e2e suite" time="150.999364824"></testcase>
+      <testcase name="[sig-scheduling] PodPriorityResolution [Serial] [Feature:PodPreemption] validates critical system priorities are created and resolved" classname="Kubernetes e2e suite" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[sig-storage] PersistentVolumes-local  [Volume type: dir-bindmounted] Set fsGroup for local volume should not set different fsGroups for two pods simultaneously" classname="Kubernetes e2e suite" time="79.38645981"></testcase>
+  </testsuite>
